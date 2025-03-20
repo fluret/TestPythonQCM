@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2135741  -->
+  <question type="multichoice">
+    <name>
+      <text>Qtestbase64</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Choisir :</p>
+<p><img src="@@PLUGINFILE@@/args001.png"></p>]]></text>
+<file name="args001.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Votre réponse est correcte.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Votre réponse est partiellement correcte.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Votre réponse est incorrecte.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>B</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>C</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>D</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
