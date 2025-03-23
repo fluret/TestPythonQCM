@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-from typing import List
+#from typing import List
 from category import Category
 from questions import Question
 
