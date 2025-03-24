@@ -6,7 +6,7 @@ import os
 path = os.path.abspath(os.path.dirname(__file__))
 
 
-input_filepath = f"{path}\\quiz02.xml"  # Chemin vers le fichier XML Moodle
+input_filepath = f"{path}\\quiz03.xml"  # Chemin vers le fichier XML Moodle
 output_filepath = f"{path}\\questions.json"  # Chemin vers le fichier JSON de sortie
 
 # Analyse du fichier XML
