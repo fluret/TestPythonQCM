@@ -32,14 +32,6 @@ def code_to_base64(code):
     
     return base64_encoded
 
-# Exemple d'utilisation
-""" code_python = """
-def hello_world():
-    print("Hello, world!")
-"""
-base64_result = code_to_base64(code_python)
-print(base64_result) """
-
 
 def transformer_questions(fichier_json, fonction_base64):
     """
@@ -64,7 +56,7 @@ def transformer_questions(fichier_json, fonction_base64):
                     base64_image = fonction_base64(partie_b)
                     
                     # Remplacer le contenu de "text"
-                    question["text"] = f"<![CDATA[ {partie_a} <img src=\"@@PLUGINFILE@@/args001.png\" alt=\"\" role=\"presentation\">]]></text><file name=\"args001.png\" path=\"/\" encoding=\"base64\">{base64_image}</file>"
+                    question["text"] = f'<![CDATA[ {partie_a} <img src="@@PLUGINFILE@@/args001.png" alt="" role="presentation">]]></text><file name="args001.png" path="/" encoding="base64">{base64_image}</file>'
             
             if "questions" in question:  # Si des sous-questions existent
                 parcourir_questions(question["questions"])
