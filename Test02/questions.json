@@ -1,13 +1,5 @@
 [
     {
-        "category": "top/002_LURET Python_niveau2",
-        "questions": []
-    },
-    {
-        "category": "top/002_LURET Python_niveau2/Fonctions",
-        "questions": []
-    },
-    {
         "category": "top/002_LURET Python_niveau2/Fonctions/paramètre optionnel",
         "questions": [
             {
