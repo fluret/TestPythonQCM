@@ -26,22 +26,14 @@ class MoodleXMLParser:
                 categories.append(current_category)
 
             elif current_category and qtype in {"multichoice", "truefalse", "shortanswer", "matching"}:
-                # Extraire le texte de la question
                 question_text = question.find("questiontext").find("text").text
-
-                # Extraire le nom de la question
-                name_element = question.find("name")
-                question_name = name_element.find("text").text if name_element is not None else "Unnamed Question"
-
-                # Créer une nouvelle question avec le texte et le nom
-                new_question = self._extract_question_details(question, qtype, question_text, question_name)
+                new_question = self._extract_question_details(question, qtype, question_text)
                 current_category.add_question(new_question)
 
         return categories
 
-    def _extract_question_details(self, question, qtype, question_text, question_name):
-        # Créer une nouvelle question avec le texte et le nom
-        new_question = Question(question_text, qtype, name=question_name)
+    def _extract_question_details(self, question, qtype, question_text):
+        new_question = Question(question_text, qtype)
 
         if qtype == "multichoice":
             for answer in question.findall("answer"):

@@ -56,7 +56,7 @@ def transformer_questions(fichier_json, fonction_base64):
                     base64_image = fonction_base64(partie_b)
                     
                     # Remplacer le contenu de "text"
-                    question["text"] = f'{partie_a} <img src="@@PLUGINFILE@@/args001.png" alt="" role="presentation"></text><file name="args001.png" path="/" encoding="base64">{base64_image}</file>'
+                    question["text"] = f'<![CDATA[ {partie_a} <img src="@@PLUGINFILE@@/args001.png" alt="" role="presentation">]]></text><file name="args001.png" path="/" encoding="base64">{base64_image}</file>'
             
             if "questions" in question:  # Si des sous-questions existent
                 parcourir_questions(question["questions"])

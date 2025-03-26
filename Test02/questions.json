@@ -1,10 +1,19 @@
 [
     {
+        "category": "top/002_LURET Python_niveau2",
+        "questions": []
+    },
+    {
+        "category": "top/002_LURET Python_niveau2/Fonctions",
+        "questions": []
+    },
+    {
         "category": "top/002_LURET Python_niveau2/Fonctions/paramètre optionnel",
         "questions": [
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(a=1, b=2, c=3):\n    return a + b + c\n\nresultat = fonction_travail()</code></pre>",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "6",
@@ -28,6 +37,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(x=2, y=3):\n    return x * y\n\nresultat = fonction_travail(y=4)</code></pre>",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "8",
@@ -51,6 +61,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(a=10, b=2):\n    return a / b\n\nresultat = fonction_travail(b=5)</code></pre>",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "2.0",
@@ -74,6 +85,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(base=2, exposant=3):\n    return base ** exposant\n\nresultat = fonction_travail(exposant=4)</code></pre>",
                 "type": "multichoice",
+                "name": "Q004",
                 "answers": [
                     {
                         "text": "16",
@@ -97,6 +109,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(a=10, b=5, c=2):\n    return a - b - c\n\nresultat = fonction_travail(c=1)</code></pre>",
                 "type": "multichoice",
+                "name": "Q005",
                 "answers": [
                     {
                         "text": "4",
@@ -120,6 +133,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(a=10, b=3):\n    return a % b\n\nresultat = fonction_travail(a=11)</code></pre>",
                 "type": "multichoice",
+                "name": "Q006",
                 "answers": [
                     {
                         "text": "2",
@@ -143,6 +157,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(a='bon', b='jour'):\n    return a + b\n\nresultat = fonction_travail(a='salut')</code></pre>",
                 "type": "multichoice",
+                "name": "Q007",
                 "answers": [
                     {
                         "text": "salutjour",
@@ -166,6 +181,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(a=5, b=10, c=3):\n    return min(a, b, c)\n\nresultat = fonction_travail(b=2)</code></pre>",
                 "type": "multichoice",
+                "name": "Q008",
                 "answers": [
                     {
                         "text": "2",
@@ -189,6 +205,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(a=5, b=10, c=3):\n    return max(a, b, c)\n\nresultat = fonction_travail(c=15)</code></pre>",
                 "type": "multichoice",
+                "name": "Q009",
                 "answers": [
                     {
                         "text": "15",
@@ -212,6 +229,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant ?</p>\n<pre><code>\ndef fonction_travail(a=10, b=20, c=30):\n    return (a + b + c) / 3\n\nresultat = fonction_travail(b=40)</code></pre>",
                 "type": "multichoice",
+                "name": "Q010",
                 "answers": [
                     {
                         "text": "<p>26.666666666666668</p>",
@@ -235,6 +253,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(a=16):\n    return a ** 0.5\n\nresultat = fonction_travail()</code></pre>",
                 "type": "multichoice",
+                "name": "Q011",
                 "answers": [
                     {
                         "text": "4.0",
@@ -258,6 +277,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(a=4):\n    return a % 2 == 0\n\nresultat = fonction_travail(a=7)</code></pre>",
                 "type": "multichoice",
+                "name": "Q012",
                 "answers": [
                     {
                         "text": "False",
@@ -281,6 +301,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(n=5):\n    if n == 0:\n        return 1\n    else:\n        return n * fonction_travail(n-1)\n\nresultat = fonction_travail(n=3)</code></pre>",
                 "type": "multichoice",
+                "name": "Q013",
                 "answers": [
                     {
                         "text": "6",
@@ -304,6 +325,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(a=10, b=5):\n    return a > b\n\nresultat = fonction_travail(b=20)</code></pre>",
                 "type": "multichoice",
+                "name": "Q014",
                 "answers": [
                     {
                         "text": "False",
@@ -327,6 +349,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(a=2):\n    return a * 2\n\nresultat = fonction_travail(a=5)</code></pre>",
                 "type": "multichoice",
+                "name": "Q015",
                 "answers": [
                     {
                         "text": "10",
@@ -350,6 +373,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(a=1, b=0):\n    return b, a\n\nresultat = fonction_travail(b=2)</code></pre>",
                 "type": "multichoice",
+                "name": "Q016",
                 "answers": [
                     {
                         "text": "(2, 1)",
@@ -373,6 +397,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(s='hello'):\n    return len(s)\n\nresultat = fonction_travail(s='world')</code></pre>",
                 "type": "multichoice",
+                "name": "Q017",
                 "answers": [
                     {
                         "text": "5",
@@ -396,6 +421,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant ?</p>\n<pre><code>\ndef fonction_travail(s='bonjour'):\n    return s.upper()\n\nresultat = fonction_travail()</code></pre>",
                 "type": "multichoice",
+                "name": "Q018",
                 "answers": [
                     {
                         "text": "<p>BONJOUR</p>",
@@ -419,6 +445,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(s='BONJOUR'):\n    return s.lower()\n\nresultat = fonction_travail(s='HELLO')</code></pre>",
                 "type": "multichoice",
+                "name": "Q019",
                 "answers": [
                     {
                         "text": "hello",
@@ -442,6 +469,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(s='bonjour', ancien='bon', nouveau='salut'):\n    return s.replace(ancien, nouveau)\n\nresultat = fonction_travail(ancien='jour')</code></pre>",
                 "type": "multichoice",
+                "name": "Q020",
                 "answers": [
                     {
                         "text": "bonsalut",
@@ -465,6 +493,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(s='radar'):\n    return s == s[::-1]\n\nresultat = fonction_travail(s='level')</code></pre>",
                 "type": "multichoice",
+                "name": "Q022",
                 "answers": [
                     {
                         "text": "True",
@@ -488,6 +517,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(s='hello'):\n    return s[::-1]\n\nresultat = fonction_travail(s='world')</code></pre>",
                 "type": "multichoice",
+                "name": "Q023",
                 "answers": [
                     {
                         "text": "dlrow",
@@ -511,6 +541,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(s='bonjour tout le monde'):\n    return len(s.split())\n\nresultat = fonction_travail(s='hello world')</code></pre>",
                 "type": "multichoice",
+                "name": "Q024",
                 "answers": [
                     {
                         "text": "2",
@@ -534,6 +565,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(s='bonjour'):\n    return s.capitalize()\n\nresultat = fonction_travail(s='HELLO')</code></pre>",
                 "type": "multichoice",
+                "name": "Q025",
                 "answers": [
                     {
                         "text": "Hello",
@@ -557,6 +589,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(s='bonjour', sous_chaine='jour'):\n    return s.find(sous_chaine)\n\nresultat = fonction_travail(s='hello', sous_chaine='ell')</code></pre>",
                 "type": "multichoice",
+                "name": "Q026",
                 "answers": [
                     {
                         "text": "1",
@@ -580,6 +613,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(s=''):\n    return len(s) == 0\n\nresultat = fonction_travail(s=' ')</code></pre>",
                 "type": "multichoice",
+                "name": "Q027",
                 "answers": [
                     {
                         "text": "False",
@@ -603,6 +637,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant ?</p>\n<pre><code>\ndef fonction_travail(s=' bonjour '):\n    return s.strip()\n\nresultat = fonction_travail(s=' hello ')</code></pre>",
                 "type": "multichoice",
+                "name": "Q028",
                 "answers": [
                     {
                         "text": "<p>'hello'</p>",
@@ -626,6 +661,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(s='bonjour tout le monde', remplacement='_'):\n    return s.replace(' ', remplacement)\n\nresultat = fonction_travail(s='hello world', remplacement='-')</code></pre>",
                 "type": "multichoice",
+                "name": "Q029",
                 "answers": [
                     {
                         "text": "hello-world",
@@ -649,6 +685,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(fichier='document.txt'):\n    return fichier.split('.')[-1]\n\nresultat = fonction_travail(fichier='image.png')</code></pre>",
                 "type": "multichoice",
+                "name": "Q030",
                 "answers": [
                     {
                         "text": "png",
@@ -672,6 +709,7 @@
             {
                 "text": "<p>Que fait la fonction suivante lorsqu'elle est appelée avec un seul argument ?</p>\n<pre><code>\ndef fonction_test(param1=10):\n    return param1 * 2\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q031",
                 "answers": [
                     {
                         "text": "<p>Elle retourne 20 si aucun argument n'est passé</p>",
@@ -695,6 +733,7 @@
             {
                 "text": "Quelle est la valeur de 'resultat' après l'exécution du code suivant ?\n<pre><code>\ndef fonction_test(param1=5, param2=10):\nreturn param1 + param2\nresultat = fonction_test(3)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q032",
                 "answers": [
                     {
                         "text": "13",
@@ -718,6 +757,7 @@
             {
                 "text": "Dans le code suivant, quelle sera la sortie si aucune valeur n'est passée à 'param3' ?\n<pre><code>\ndef fonction_test(param1=1, param2=2, param3=3):\nreturn param1 * param2 * param3\nprint(fonction_test())\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q033",
                 "answers": [
                     {
                         "text": "6",
@@ -741,6 +781,7 @@
             {
                 "text": "<p>Quelle est la valeur de 'x' après l'exécution de ce code ?</p>\n<pre><code>\ndef fonction_test(x=0, y=1):\n    return x + y<br>\n\nx = fonction_test(y=5)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q034",
                 "answers": [
                     {
                         "text": "<p>5</p>",
@@ -764,6 +805,7 @@
             {
                 "text": "<p>Quelle est la sortie de ce code ?</p>\n<pre><code>\ndef fonction_test(a=10, b=20):\n    return a &gt; b\n\nprint(fonction_test())\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q036",
                 "answers": [
                     {
                         "text": "<p>False</p>",
@@ -787,6 +829,7 @@
             {
                 "text": "<p>Quel est le résultat de cette fonction si on passe seulement 'b' ?</p>\n<pre><code>\ndef fonction_test(a=1, b=2, c=3):\n    return a + b + c\n\nprint(fonction_test(b=5))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q037",
                 "answers": [
                     {
                         "text": "<p>9</p>",
@@ -810,6 +853,7 @@
             {
                 "text": "<p>Quel est le résultat de l'appel de cette fonction sans argument ?</p>\n<pre><code>\ndef fonction_test(valeur=10):\n    return valeur * 2\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q039",
                 "answers": [
                     {
                         "text": "<p>20</p>",
@@ -833,6 +877,7 @@
             {
                 "text": "<p>Quelle est la valeur de 'total' après l'exécution de ce code ?</p>\n<pre><code>\ndef fonction_test(a=1, b=2):\n    return a + b\n\ntotal = fonction_test(3, b=4)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q040",
                 "answers": [
                     {
                         "text": "<p>7</p>",
@@ -856,6 +901,7 @@
             {
                 "text": "<p>Quel sera le résultat de cette fonction si aucun argument n'est fourni ?</p>\n<pre><code>\ndef fonction_test(multiplicateur=5):\n    return 2 * multiplicateur\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q041",
                 "answers": [
                     {
                         "text": "<p>10</p>",
@@ -879,6 +925,7 @@
             {
                 "text": "<p>Quelle est la valeur retournée par cette fonction avec un seul argument ?</p>\n<pre><code>\ndef fonction_test(base=10, exposant=2):\n    return base ** exposant\n\nprint(fonction_test(3))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q042",
                 "answers": [
                     {
                         "text": "<p>9</p>",
@@ -902,6 +949,7 @@
             {
                 "text": "<p>Comment se comporte la fonction si 'b' est omis ?</p>\n<pre><code>\ndef fonction_test(a=1, b=2, c=3):\n    return a + b + c\n\nprint(fonction_test(10))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q043",
                 "answers": [
                     {
                         "text": "<p>15</p>",
@@ -925,6 +973,7 @@
             {
                 "text": "<p>Quelle est l'affichage de cette fonction sans argument ?</p>\n<pre><code>\ndef fonction_test(message=\"Bonjour\"):\n    print(message)\n\nfonction_test()\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q044",
                 "answers": [
                     {
                         "text": "<p>Bonjour</p>",
@@ -948,6 +997,7 @@
             {
                 "text": "<p>Quel est le retour de cette fonction si aucun argument n'est spécifié ?</p>\n<pre><code>\ndef fonction_test(x=0, y=1, z=2):\n    return x - y + z\n\nprint(fonction_test())\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q045",
                 "answers": [
                     {
                         "text": "<p>1</p>",
@@ -971,6 +1021,7 @@
             {
                 "text": "<p>Qu'est-ce que cette fonction retourne si on ne passe que 'b' en argument ?</p>\n<pre><code>\ndef fonction_test(a=1, b=2):\n    return a * b\n\nprint(fonction_test(b=4))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q046",
                 "answers": [
                     {
                         "text": "<p>4</p>",
@@ -994,6 +1045,7 @@
             {
                 "text": "<p>Que fait cette fonction si aucun argument n'est fourni ?</p>\n<pre><code>\ndef fonction_test(nombre=100):\n    return nombre // 2\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q047",
                 "answers": [
                     {
                         "text": "<p>50</p>",
@@ -1017,6 +1069,7 @@
             {
                 "text": "<p>Quel est le résultat de ce code avec seulement 'param2' spécifié ?</p>\n<pre><code>\ndef fonction_test(param1=1, param2=2):\n    return param1 + param2\n\nprint(fonction_test(param2=5))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q048",
                 "answers": [
                     {
                         "text": "<p>6</p>",
@@ -1040,6 +1093,7 @@
             {
                 "text": "<p>Quelle est la valeur de 'resultat' après cette exécution ?</p>\n<pre><code>\ndef fonction_test(valeur=10):\n    return valeur * valeur\n\nresultat = fonction_test()\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q050",
                 "answers": [
                     {
                         "text": "<p>100</p>",
@@ -1063,6 +1117,7 @@
             {
                 "text": "<p>Que fait cette fonction si aucun paramètre n'est donné ?</p>\n<pre><code>\ndef fonction_test(start=0, end=10):\n    return list(range(start, end))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q051",
                 "answers": [
                     {
                         "text": "<p>[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</p>",
@@ -1086,6 +1141,7 @@
             {
                 "text": "<p>Quel sera le résultat de cette fonction appelée sans argument ?</p>\n<pre><code>\ndef fonction_test(a=2, b=3):\n     return a % b\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q052",
                 "answers": [
                     {
                         "text": "<p>2</p>",
@@ -1109,6 +1165,7 @@
             {
                 "text": "<p>Quelle est la sortie de cette fonction sans paramètre ?</p>\n<pre><code>\ndef fonction_test(text=\"Python\"):\n    print(text.upper())\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q053",
                 "answers": [
                     {
                         "text": "<p>PYTHON</p>",
@@ -1132,6 +1189,7 @@
             {
                 "text": "<p>Quel est le résultat si on ne passe que 'b' ?</p>\n<pre><code>\ndef fonction_test(a=1, b=2):\n    return a - b\n\nprint(fonction_test(b=3))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q054",
                 "answers": [
                     {
                         "text": "<p>-2</p>",
@@ -1155,6 +1213,7 @@
             {
                 "text": "<p>Quelle est la valeur de 'output' ici ?</p>\n<pre><code>\ndef fonction_test(x=1, y=2):\n    return x * y\n\noutput = fonction_test(x=3)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q055",
                 "answers": [
                     {
                         "text": "<p>6</p>",
@@ -1178,6 +1237,7 @@
             {
                 "text": "<p>Que retourne cette fonction sans argument ?</p>\n<pre><code>\ndef fonction_test(base=5):\n    return base ** 2\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q056",
                 "answers": [
                     {
                         "text": "<p>25</p>",
@@ -1201,6 +1261,7 @@
             {
                 "text": "<p>Quelle est la sortie de ce code ?</p>\n<pre><code>\ndef fonction_test(message=\"Hello\"):\n    return message * 2\n\nprint(fonction_test())\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q057",
                 "answers": [
                     {
                         "text": "<p>HelloHello</p>",
@@ -1224,6 +1285,7 @@
             {
                 "text": "<p>Quelle est la valeur de 'result' après l'exécution ?</p>\n<pre><code>\ndef fonction_test(a=1, b=2, c=3):\n    return a + b + c\n\nresult = fonction_test(c=5)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q058",
                 "answers": [
                     {
                         "text": "<p>8</p>",
@@ -1247,6 +1309,7 @@
             {
                 "text": "<p>Quelle est la valeur de 'x' après cette exécution ?</p>\n<pre><code>\ndef fonction_test(x=0, y=1):\n    x += y\n    return x\n\nx = fonction_test(y=5)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q059",
                 "answers": [
                     {
                         "text": "<p>5</p>",
@@ -1270,6 +1333,7 @@
             {
                 "text": "<p>Quelle est la sortie de cette fonction appelée sans argument ?</p>\n<pre><code>\ndef fonction_test(liste=[1, 2, 3]):\n    return sum(liste)\n\nprint(fonction_test())\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q060",
                 "answers": [
                     {
                         "text": "<p>6</p>",
@@ -1293,6 +1357,7 @@
             {
                 "text": "<p>Quelle est la valeur de 'résultat' après cette exécution atypique ?</p>\n<pre><code>\ndef fonction_test(a=1, b=2):\n    if a &gt; b:\n        return a\n    return b * b\n\nrésultat = fonction_test(b=5)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q061",
                 "answers": [
                     {
                         "text": "<p>25</p>",
@@ -1316,6 +1381,7 @@
             {
                 "text": "<p>Quel est le message affiché par cette fonction si aucun paramètre n'est passé ?</p>\n<pre><code>\ndef fonction_test(texte=\"Bienvenue\", répétition=1):\n    for _ in range(répétition):\n        print(texte)\n\nfonction_test(répétition=3)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q062",
                 "answers": [
                     {
                         "text": "<p>Bienvenue Bienvenue Bienvenue</p>",
@@ -1339,6 +1405,7 @@
             {
                 "text": "<p>Quelle est la liste retournée si aucun paramètre n'est fourni ?</p>\n<pre><code>\ndef fonction_test(début=1, fin=5, pas=1):\n    return list(range(début, fin, pas))\n\nprint(fonction_test(pas=2))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q063",
                 "answers": [
                     {
                         "text": "<p>[1, 3]</p>",
@@ -1362,6 +1429,7 @@
             {
                 "text": "<p>Que renvoie cette fonction ?</p>\n<pre><code>\ndef fonction_test(longueur=10):\n    return \"*\" * longueur\n\nprint(fonction_test(longueur=5))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q064",
                 "answers": [
                     {
                         "text": "<p>*****</p>",
@@ -1385,6 +1453,7 @@
             {
                 "text": "<p>Quelle est la valeur de 'z' après cette séquence de code ?</p>\n<pre><code>\ndef fonction_test(x=1, y=2):\n    return x * y, x + y\n\nz = fonction_test(x=3)[1]\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q065",
                 "answers": [
                     {
                         "text": "<p>5</p>",
@@ -1408,6 +1477,7 @@
             {
                 "text": "<p>Quel est le résultat de cette fonction si aucun argument n'est passé ?</p>\n<pre><code>\ndef fonction_test(base=7, hauteur=3):\n    return base * hauteur / 2\n\nprint(fonction_test())\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q066",
                 "answers": [
                     {
                         "text": "<p>10.5</p>",
@@ -1431,6 +1501,7 @@
             {
                 "text": "<p>Quelle est la sortie de cette fonction si 'chiffre' n'est pas spécifié ?</p>\n<pre><code>\ndef fonction_test(chiffre=0):\n    if chiffre % 2 == 0:\n        return \"Pair\"\n    else:\n        return \"Impair\"\n\nprint(fonction_test())\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q067",
                 "answers": [
                     {
                         "text": "<p>Pair</p>",
@@ -1454,6 +1525,7 @@
             {
                 "text": "<p>Quelle est la valeur de 'résultat' après cette exécution ?</p>\n<pre><code>\ndef fonction_test(a=1, b=2):\n    return a if a &gt; b else b\n\nrésultat = fonction_test(a=5, b=5)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q068",
                 "answers": [
                     {
                         "text": "<p>5</p>",
@@ -1477,6 +1549,7 @@
             {
                 "text": "<p>Quel est le résultat si 'répétition' n'est pas fourni ?</p>\n<pre><code>\ndef fonction_test(mot=\"Python\", répétition=3):\n    return mot * répétition\n\nprint(fonction_test(répétition=2))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q069",
                 "answers": [
                     {
                         "text": "<p>PythonPython</p>",
@@ -1500,6 +1573,7 @@
             {
                 "text": "<p>Quelle est la valeur de 'final' après cette opération ?</p>\n<pre><code>\ndef fonction_test(valeur=10, multiplicateur=2):\n    return valeur * multiplicateur\n\nfinal = fonction_test(valeur=5, multiplicateur=3) - fonction_test()\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q070",
                 "answers": [
                     {
                         "text": "<p>-5</p>",
@@ -1523,6 +1597,7 @@
             {
                 "text": "Que se passe-t-il quand on appelle cette fonction sans arguments ?\n<pre><code>\ndef fonction_test(a=0, b=1):\nprint(f\"a: , b: {b}\")\n</code></pre>\n{\n~%100%Elle affiche \"a: 0, b: 1\"\n~Elle affiche \"a: None, b: None\"\n~Elle affiche \"a: 1, b: 0\"\n~Elle génère une erreur\n}",
                 "type": "shortanswer",
+                "name": "Q035",
                 "answers": [
                     {
                         "text": "a",
@@ -1534,6 +1609,7 @@
             {
                 "text": "Que fait la fonction suivante si on ne lui passe aucun argument ?\n<pre><code>\ndef fonction_test(nom=\"inconnu\", age=0):\nprint(f\"Nom: , Age: {age}\")\n</code></pre>\n{\n~%100%Elle affiche \"Nom: inconnu, Age: 0\"\n~Elle affiche \"Nom: , Age: \"\n~Elle affiche \"Nom: inconnu, Age: inconnu\"\n~Erreur\n}",
                 "type": "shortanswer",
+                "name": "Q038",
                 "answers": [
                     {
                         "text": "nom",
@@ -1545,6 +1621,7 @@
             {
                 "text": "Quelle est la sortie de ce code ?\n<pre><code>\ndef fonction_test(nom=\"inconnu\", age=0):\nprint(f\"Nom: , Âge: {age}\")\nfonction_test(\"Alice\")\n</code></pre>\n{\n~%100%Nom: Alice, Âge: 0\n~Nom: inconnu, Âge: 0\n~Nom: Alice, Âge: inconnu\n~Erreur\n}",
                 "type": "shortanswer",
+                "name": "Q049",
                 "answers": [
                     {
                         "text": "nom",
@@ -1561,6 +1638,7 @@
             {
                 "text": "<p>Quelle est la sortie de ce code ?</p>\n<pre><code>\nx = 10\ndef fonction():\n    x = 5\n    print(x)\n\n\nfonction()\nprint(x)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "5\n10",
@@ -1584,6 +1662,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?<pre><code>\ndef afficher_variables():\n    x = 10\n    print(x)\n\nafficher_variables()</code></pre>",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "<pre>10</pre>",
@@ -1607,6 +1686,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>\nx = 5\ndef fonction():\n    global x\n    x = 10\n    def interne():\n        nonlocal x\n        x = 20\n    interne()\n\nfonction()\nprint(x)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "<pre>5</pre>",
@@ -1630,6 +1710,7 @@
             {
                 "text": "<p>Quelle est la portée de la variable 'f' dans ce code ?</p>\n<pre><code>def fonction():\n f = 11\n def interne():\n print(f)\n interne()\n fonction()</code></pre>",
                 "type": "multichoice",
+                "name": "Q004",
                 "answers": [
                     {
                         "text": "<p>Locale</p>",
@@ -1653,6 +1734,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>\ndef fonction():\n    x = 10\n    def interne():\n        x = 20\n    interne()\n    print(x)\n\nfonction()</code></pre>",
                 "type": "multichoice",
+                "name": "Q005",
                 "answers": [
                     {
                         "text": "<pre>10</pre>",
@@ -1676,6 +1758,7 @@
             {
                 "text": "<p>Comment la portée de 'x' est-elle gérée ici ?</p>\n<pre><code>x = 100\ndef fonction():\n    x = 200\n    def interne():\n        nonlocal x\n        x = 300\n    interne()\n    return x\n\nprint(fonction())</code></pre>",
                 "type": "multichoice",
+                "name": "Q006",
                 "answers": [
                     {
                         "text": "<p>100</p>",
@@ -1699,6 +1782,7 @@
             {
                 "text": "<p>Quelle est la sortie de ce code ?</p>\n<pre><code>\ng = 2\ndef fonction():\n    global g\n    g = 7\n\nfonction()\nprint(g)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q007",
                 "answers": [
                     {
                         "text": "<p>7</p>",
@@ -1722,6 +1806,7 @@
             {
                 "text": "<p>Quelle est la portée de la variable 'h' dans ce code ?</p>\n<pre><code>\nh = 14\ndef fonction():\n    print(h)\n\n\nfonction()\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q008",
                 "answers": [
                     {
                         "text": "<p>Globale</p>",
@@ -1745,6 +1830,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>\nx = 5\ndef fonction():\n    x = 10\n    def interne():\n        global x\n        x = 20\n    interne()\n    print(x)\n\nfonction()\nprint(x)</code></pre>",
                 "type": "multichoice",
+                "name": "Q009",
                 "answers": [
                     {
                         "text": "<pre>10\n5</pre>",
@@ -1768,6 +1854,7 @@
             {
                 "text": "<p>Quelle est la portée de la variable 'j' dans ce code ?</p>\n<pre><code>\ndef fonction():\n    j = 13\n    print(j)\n\nfonction()\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q010",
                 "answers": [
                     {
                         "text": "<p>Locale</p>",
@@ -1791,6 +1878,7 @@
             {
                 "text": "<p>Quen renvoie ce code ?</p>\n<pre><code>\ndef fonction():\n    j = 13\n    print(j)\n\nfonction()\nprint(j)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q011",
                 "answers": [
                     {
                         "text": "<p>Erreur : NameError</p>",
@@ -1814,6 +1902,7 @@
             {
                 "text": "<p>Que va-t-il se passer avec la portée des variables ici ?</p>\n<pre><code>x = 10\ndef fonction():\n    global x\n    x = 20\n    print(x)\n\nfonction()\nprint(x)</code></pre>",
                 "type": "multichoice",
+                "name": "Q012",
                 "answers": [
                     {
                         "text": "<p>10, 10</p>",
@@ -1837,6 +1926,7 @@
             {
                 "text": "<p>Quelle est la sortie de ce code ?</p>\n<pre><code>\no = 2\ndef fonction():\n    o = 8\n    def interne():\n        print(o)\n    interne()\n\nfonction()\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q013",
                 "answers": [
                     {
                         "text": "<p>8</p>",
@@ -1860,6 +1950,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>\nx = 5\ndef modifier_x():\n    x = 10\n\nmodifier_x()\nprint(x)</code></pre>",
                 "type": "multichoice",
+                "name": "Q014",
                 "answers": [
                     {
                         "text": "<pre>10</pre>",
@@ -1883,6 +1974,7 @@
             {
                 "text": "<p>Quelle est la portée de la variable 'y' dans ce code ?</p>\n<pre><code>\ny = 20\ndef fonction():\n    print(y)\n\nfonction()\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q015",
                 "answers": [
                     {
                         "text": "<p>Globale</p>",
@@ -1906,6 +1998,7 @@
             {
                 "text": "<p>Comment la portée est-elle résolue dans ce code ?</p>\n<pre><code>x = 1\ndef fonction():\n    x = 2\n    def interne():\n        x = 3\n        print(x)\n    interne()\n    print(x)\n\nfonction()</code></pre>",
                 "type": "multichoice",
+                "name": "Q016",
                 "answers": [
                     {
                         "text": "<p>1, 1</p>",
@@ -1929,6 +2022,7 @@
             {
                 "text": "<p>Comment la variable 's' est-elle résolue ?</p>\n<pre><code>s = \"globale\"\ndef fonction():\n    s = \"locale\"\n    def interne():\n        print(s)\n    interne()\n\nfonction()</code></pre>",
                 "type": "multichoice",
+                "name": "Q017",
                 "answers": [
                     {
                         "text": "<p>\"locale\" sera affiché</p>",
@@ -1952,6 +2046,7 @@
             {
                 "text": "<p>Quelle sera la valeur de 'x' ?</p>\n<pre><code>x = 10\ndef fonction():\n    x = 20\n    def interne():\n        nonlocal x\n        x *= 2\n    interne()\n    return x\n\nprint(fonction())</code></pre>",
                 "type": "multichoice",
+                "name": "Q018",
                 "answers": [
                     {
                         "text": "<p>10</p>",
@@ -1975,6 +2070,7 @@
             {
                 "text": "<p>Quelle est la sortie de ce code ?</p>\n<pre><code>x = 1\ndef fonction():\n    x = 2\n    def interne():\n        global x\n        x = 3\n    interne()\n    print(x)\n\nfonction()\nprint(x)</code></pre>",
                 "type": "multichoice",
+                "name": "Q019",
                 "answers": [
                     {
                         "text": "<p>2, 1</p>",
@@ -1998,6 +2094,7 @@
             {
                 "text": "<p>Quelle est la sortie de ce code ?</p>\n<pre><code>\nu = 4\ndef fonction():\n    u = 9\n    def interne():\n        print(u)\n    interne()\n\nfonction()\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q020",
                 "answers": [
                     {
                         "text": "<p>9</p>",
@@ -2021,6 +2118,7 @@
             {
                 "text": "<p>Quelle sera la valeur affichée ?</p>\n<pre><code>x = 10\ndef fonction():\n    x = 20\n    def interne():\n        print(x)\n    x = 30\n    interne()\n\nfonction()</code></pre>",
                 "type": "multichoice",
+                "name": "Q021",
                 "answers": [
                     {
                         "text": "<p>10</p>",
@@ -2044,6 +2142,7 @@
             {
                 "text": "<p>Quelle est la portée finale de 'x' ?</p>\n<pre><code>x = 100\ndef fonction():\n    x = 200\n    def interne():\n        global x\n        x = 300\n    interne()\n    print(x)\n\nfonction()\nprint(x)</code></pre>",
                 "type": "multichoice",
+                "name": "Q022",
                 "answers": [
                     {
                         "text": "<p>200, 100</p>",
@@ -2067,6 +2166,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>\ndef fonction():\n    x = 10\n    return x\n\nprint(x)</code></pre>",
                 "type": "multichoice",
+                "name": "Q023",
                 "answers": [
                     {
                         "text": "<pre>10</pre>",
@@ -2090,6 +2190,7 @@
             {
                 "text": "<p>Comment la portée de 'z' est-elle résolue dans ce code ?</p>\n<pre><code>x = 10\ndef fonction():\n    y = 20\n    def interne():\n        z = 30\n        print(x, y, z)\n    interne()\n\nfonction()</code></pre>",
                 "type": "multichoice",
+                "name": "Q024",
                 "answers": [
                     {
                         "text": "<p>x est globale, y est non-locale ou enclosing, z est locale</p>",
@@ -2113,6 +2214,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>\nx = 5\n\ndef fonction():\n    x = 10\n    def interne():\n        print(x)\n    interne()\n\nfonction()</code></pre>",
                 "type": "multichoice",
+                "name": "Q025",
                 "answers": [
                     {
                         "text": "<pre>10</pre>",
@@ -2136,6 +2238,7 @@
             {
                 "text": "<p>Quel sera le résultat de ce code ?</p>\n<pre><code>x = 100\ndef modifier_x():\n    x = 200\n    print(x)\n\nmodifier_x()\nprint(x)</code></pre>",
                 "type": "multichoice",
+                "name": "Q026",
                 "answers": [
                     {
                         "text": "<p>200, 100</p>",
@@ -2159,6 +2262,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>\nx = 5\n\ndef fonction():\n    print(x)\n    x = 10\n\nfonction()</code></pre>",
                 "type": "multichoice",
+                "name": "Q027",
                 "answers": [
                     {
                         "text": "<pre>5</pre>",
@@ -2182,6 +2286,7 @@
             {
                 "text": "<p>Comment gérer correctement la modification d'une variable globale ?</p>\n<pre><code>total = 0\ndef ajouter(valeur):\n    # Complétez ici\n    total += valeur\n    return total</code></pre>",
                 "type": "multichoice",
+                "name": "Q028",
                 "answers": [
                     {
                         "text": "<p>Il n'y a rien à modifier</p>",
@@ -2205,6 +2310,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>\ndef fonction():\n    x = 10\n    def interne():\n        nonlocal x\n        x = 20\n    interne()\n    print(x)\n\nfonction()</code></pre>",
                 "type": "multichoice",
+                "name": "Q029",
                 "answers": [
                     {
                         "text": "<pre>10</pre>",
@@ -2228,6 +2334,7 @@
             {
                 "text": "<p>Que va afficher ce code concernant la résolution de portée ?</p>\n<pre><code>\nx = 5\ndef fonction():\n    print(x)\n    def interne():\n        print(x)\n    x = 10\n    interne()\n\nfonction()\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q030",
                 "answers": [
                     {
                         "text": "<p>5</p>",
@@ -2251,6 +2358,7 @@
             {
                 "text": "<p>Quelle est la valeur de x après l'exécution de ce code ?</p>\n<pre class=\"language-python\"><code>\ndef incrementer(nombre): \n    nombre = nombre + 1 \n   \n x = 5\n incrementer(x)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q031",
                 "answers": [
                     {
                         "text": "<p>6</p>",
@@ -2270,6 +2378,7 @@
             {
                 "text": "<p>Dans le code suivant, quelle est la portée de la règle LEGB qui est utilisée :</p>\n<pre><code>\nimport math\ndef fonction():\n    return math.sqrt(16)\n</code> </pre>",
                 "type": "multichoice",
+                "name": "Q032",
                 "answers": [
                     {
                         "text": "<p>built-in</p>",
@@ -2293,6 +2402,7 @@
             {
                 "text": "<p>Quel est le résultat de ce code ? </p>\n<pre><code>\ndef externe():\n    x = 5\n    def interne():\n        x = x + 1\n    interne()\n    return x\n\nprint(externe())\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q033",
                 "answers": [
                     {
                         "text": "<p>UnboundLocalError</p>",
@@ -2316,6 +2426,7 @@
             {
                 "text": "<p>Qu'affiche le code suivant :</p>\n<pre><code>\ndef fonction():\n    x = 10\n    del x\n    print(x)\n\nprint(fonction())\n</code> </pre>",
                 "type": "multichoice",
+                "name": "Q034",
                 "answers": [
                     {
                         "text": "<p>UnboundLocalError</p>",
@@ -2339,6 +2450,7 @@
             {
                 "text": "<p>Qu'affiche le code suivant ?</p>\n<pre><code>\ndef externe():\n    x = 10\n    def interne():\n        x = 20\n    interne()\n    return x\n\nprint(externe())\n</code> </pre>",
                 "type": "multichoice",
+                "name": "Q035",
                 "answers": [
                     {
                         "text": "<p>10</p>",
@@ -2362,6 +2474,7 @@
             {
                 "text": "Que se passe-t-il si une variable locale a le même nom qu'une variable globale ?",
                 "type": "multichoice",
+                "name": "Q036",
                 "answers": [
                     {
                         "text": "La variable locale est ignorée",
@@ -2385,6 +2498,7 @@
             {
                 "text": "Où Python recherche-t-il une variable si elle n'est ni locale, ni enclosing, ni globale ?",
                 "type": "multichoice",
+                "name": "Q037",
                 "answers": [
                     {
                         "text": "Dans les modules importés",
@@ -2408,6 +2522,7 @@
             {
                 "text": "Quelle est la portée d'une variable définie dans un bloc `if` en Python ?",
                 "type": "multichoice",
+                "name": "Q038",
                 "answers": [
                     {
                         "text": "Elle est limitée au bloc `if`",
@@ -2431,6 +2546,7 @@
             {
                 "text": "Que se passe-t-il si on utilise `del` sur une variable locale ?",
                 "type": "multichoice",
+                "name": "Q039",
                 "answers": [
                     {
                         "text": "Elle est supprimée de l'espace de noms local",
@@ -2454,6 +2570,7 @@
             {
                 "text": "Comment accéder à une variable globale depuis une fonction sans utiliser `global` ?",
                 "type": "multichoice",
+                "name": "Q040",
                 "answers": [
                     {
                         "text": "En la redéfinissant dans la fonction",
@@ -2477,6 +2594,7 @@
             {
                 "text": "Quel est le comportement de `vars()` lorsqu'il est utilisé sans argument dans une fonction ?",
                 "type": "multichoice",
+                "name": "Q041",
                 "answers": [
                     {
                         "text": "Il renvoie un dictionnaire des variables locales",
@@ -2500,6 +2618,7 @@
             {
                 "text": "Que se passe-t-il si on tente d'accéder à une variable locale avant de l'assigner ?",
                 "type": "multichoice",
+                "name": "Q042",
                 "answers": [
                     {
                         "text": "Elle prend une valeur par défaut",
@@ -2523,6 +2642,7 @@
             {
                 "text": "Dans le contexte de LEGB, qu'est-ce qu'un scope enclosing ?",
                 "type": "multichoice",
+                "name": "Q043",
                 "answers": [
                     {
                         "text": "L'espace de noms global",
@@ -2546,6 +2666,7 @@
             {
                 "text": "<pre><code>\ndef print_global_x():\n    print(x)\n    global x\n</code></pre>\n<p>Que se passe-t-il si vous exécutez ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q044",
                 "answers": [
                     {
                         "text": "<p>Il lève une erreur de syntaxe (SyntaxError)</p>",
@@ -2565,6 +2686,7 @@
             {
                 "text": "<p>Quand devez-vous envisager d'utiliser les mots-clés \"global\" et \"nonlocal\" en Python ?</p>",
                 "type": "multichoice",
+                "name": "Q045",
                 "answers": [
                     {
                         "text": "<p>Lorsque vous voulez empêcher Python de modifier une variable.</p>",
@@ -2588,6 +2710,7 @@
             {
                 "text": "<p>Quels sont les quatre types d'espaces de noms en Python ?</p>",
                 "type": "multichoice",
+                "name": "Q049",
                 "answers": [
                     {
                         "text": "<p>Built-in (intégré)</p>",
@@ -2619,6 +2742,7 @@
             {
                 "text": "<p>Qu'arrive-t-il à l'espace de noms d'une fonction lorsqu'elle se termine ?</p>",
                 "type": "multichoice",
+                "name": "Q050",
                 "answers": [
                     {
                         "text": "<p>Toutes les références d'objets fusionnent dans l'espace de noms global</p>",
@@ -2642,6 +2766,7 @@
             {
                 "text": "<p>Quelles fonctions intégrées pouvez-vous utiliser pour accéder aux espaces de noms locaux et globaux ?</p>",
                 "type": "multichoice",
+                "name": "Q051",
                 "answers": [
                     {
                         "text": "<p>globals()</p>",
@@ -2665,6 +2790,7 @@
             {
                 "text": "<p>L'espace de noms ___________ de Python est créé au début du programme principal.</p>",
                 "type": "shortanswer",
+                "name": "Q052",
                 "answers": [
                     {
                         "text": "global",
@@ -2676,6 +2802,7 @@
             {
                 "text": "<p>Que faut-il ajouter à la place des astérisques pour que la fonction <strong>inner()</strong> change la valeur de x dans la portée englobante en 100.</p>\n<p> </p>\n<pre><code>\ndef outer():\n    x = 50\n    def inner():\n        *****************\n        x = 100\n    inner()\n    return x\n</code></pre>",
                 "type": "shortanswer",
+                "name": "Q053",
                 "answers": [
                     {
                         "text": "nonlocal x",
@@ -2687,6 +2814,7 @@
             {
                 "text": "<p>Une fonction Python ne peut pas modifier un objet mutable en dehors de sa portée locale.</p>",
                 "type": "truefalse",
+                "name": "Q054",
                 "answers": [
                     {
                         "text": true,
@@ -2707,6 +2835,7 @@
             {
                 "text": "Comment peut-on sortir d'une boucle while en Python ?",
                 "type": "multichoice",
+                "name": "Comment peut-on sortir d'une boucle while en Python ?",
                 "answers": [
                     {
                         "text": "En utilisant l'instruction exit.",
@@ -2730,6 +2859,7 @@
             {
                 "text": "<p>Que va afficher le code suivant ?</p>\n<pre><code>\nfor i in range(5):\n    if i == 3:\n        break\n    print(i)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "0, 1, 2",
@@ -2753,6 +2883,7 @@
             {
                 "text": "<p>Dans le code ci-dessous, quelle sera la valeur de x après l'exécution ?</p>\n<pre><code>\nx = 0\nwhile x &lt; 10:\n    x += 2\n    if x == 6:\n        break\nprint(x)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "4",
@@ -2776,6 +2907,7 @@
             {
                 "text": "<pre><code>\nfor lettre in 'python':\n    if lettre == 'h':\n        break\n    print(lettre)\n</code></pre>\n<p>Qu'imprime ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "p, y, t",
@@ -2799,6 +2931,7 @@
             {
                 "text": "<pre><code>\ntotal = 0\nfor num in range(1, 6):\n    total += num\n    if total &gt; 10:\n        break\nprint(total)\n</code></pre>\n<p>Que va produire ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q004",
                 "answers": [
                     {
                         "text": "10",
@@ -2822,6 +2955,7 @@
             {
                 "text": "<pre><code>\nnombres = [10, 20, 30, 40, 50]\nfor n in nombres:\n    if n &gt; 25:\n        break\nprint(n)\n</code></pre>\n<p>Quel sera le résultat de ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q005",
                 "answers": [
                     {
                         "text": "10",
@@ -2845,6 +2979,7 @@
             {
                 "text": "<p>Que fait l'instruction break dans une boucle ?</p>",
                 "type": "multichoice",
+                "name": "Q006",
                 "answers": [
                     {
                         "text": "Elle arrête complètement l'exécution du programme",
@@ -2868,6 +3003,7 @@
             {
                 "text": "<pre><code>\nx = 0\nwhile True:\n    x += 1\n    if x == 5:\n        break\nprint(x)\n</code></pre>\n<p>Dans ce code, qu'affiche le print ?</p>",
                 "type": "multichoice",
+                "name": "Q007",
                 "answers": [
                     {
                         "text": "4",
@@ -2891,6 +3027,7 @@
             {
                 "text": "<pre><code>\nfor i in range(3):\n    for j in range(3):\n        if j == 2:\n            break\n        print(i, j)\n</code></pre>\n<p>Que va afficher ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q008",
                 "answers": [
                     {
                         "text": "0 0, 0 1, 1 0, 1 1, 2 0, 2 1",
@@ -2914,6 +3051,7 @@
             {
                 "text": "<pre><code>\nchaine = \"bonjour\"\nfor lettre in chaine:\n    if lettre in 'aeiou':\n        break\n    print(lettre)\n</code></pre>\n<p>Que va produire ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q009",
                 "answers": [
                     {
                         "text": "b",
@@ -2937,6 +3075,7 @@
             {
                 "text": "<pre><code>count = 0\nwhile count &lt; 10:\n    count += 1\n    if count == 7:\n        break\nprint(count)\n</code></pre>\n<p>Dans ce code, quelle sera la valeur finale de count ?</p>",
                 "type": "multichoice",
+                "name": "Q010",
                 "answers": [
                     {
                         "text": "6",
@@ -2960,6 +3099,7 @@
             {
                 "text": "<pre><code>\nnumeros = [1, 2, 3, 4, 5]\nfor num in numeros:\n    if num % 2 == 0:\n        break\n    print(num)\n</code></pre>\n<p>Que va afficher ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q011",
                 "answers": [
                     {
                         "text": "1",
@@ -2983,6 +3123,7 @@
             {
                 "text": "<p>Que se passe-t-il si break est utilisé en dehors de toute boucle ?</p>",
                 "type": "multichoice",
+                "name": "Q012",
                 "answers": [
                     {
                         "text": "Rien de particulier",
@@ -3006,6 +3147,7 @@
             {
                 "text": "<pre><code>\nfor i in range(5):\n    if i == 10:\n        break\n    print(i)\n</code></pre>\n<p>Dans ce code, que va-t-il se passer ?</p>",
                 "type": "multichoice",
+                "name": "Q013",
                 "answers": [
                     {
                         "text": "Rien ne sera imprimé",
@@ -3029,6 +3171,7 @@
             {
                 "text": "<pre><code>\nx = 0\nwhile x &lt; 5:\n    if x == 3:\n        x += 1\n        continue\n    print(x)\n    x += 1\n</code></pre>\n<p>Que va afficher ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q014",
                 "answers": [
                     {
                         "text": "0, 1, 2, 4",
@@ -3052,6 +3195,7 @@
             {
                 "text": "<pre><code>\ntotal = 0\nfor num in range(1, 10):\n    total += num\n    if total &gt;= 15:\n        break\nprint(total)\n</code></pre>\n<p>Que va produire ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q015",
                 "answers": [
                     {
                         "text": "15",
@@ -3075,6 +3219,7 @@
             {
                 "text": "<pre><code>\nfor i in range(3):\n    for j in range(3):\n        if i == j:\n            break\n        print(i, j)\n</code></pre>\n<p>Dans ce code imbriqué, que va-t-il se passer ?</p>",
                 "type": "multichoice",
+                "name": "Q016",
                 "answers": [
                     {
                         "text": "Rien ne sera imprimé",
@@ -3098,6 +3243,7 @@
             {
                 "text": "<pre><code>\nmot = \"programmation\"\nfor lettre in mot:\n    if lettre == 'm':\n        break\n    print(lettre)\n</code></pre>\n<p>Que va afficher ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q017",
                 "answers": [
                     {
                         "text": "p, r, o, g, r, a",
@@ -3121,6 +3267,7 @@
             {
                 "text": "<pre><code>\nliste = [1, 2, 3, 4, 5]\nfor element in liste:\n    if element &gt; 3:\n        break\nprint(element)\n</code></pre>\n<p>Que va produire ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q018",
                 "answers": [
                     {
                         "text": "1",
@@ -3144,6 +3291,7 @@
             {
                 "text": "<pre><code>x = 0\nwhile x &lt; 10:\n    if x == 5:\n        break\n    x += 2\nprint(x)\n</code></pre>\n<p>Dans ce code, que va-t-il se passer ?</p>",
                 "type": "multichoice",
+                "name": "Q019",
                 "answers": [
                     {
                         "text": "5",
@@ -3167,6 +3315,7 @@
             {
                 "text": "<pre><code>\nfor i in range(5):\n    if i == 2:\n        break\n    print(i * 2)\n</code></pre>\n<p>Que va afficher ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q020",
                 "answers": [
                     {
                         "text": "0, 2, 4",
@@ -3190,6 +3339,7 @@
             {
                 "text": "<p>Quel est l'effet de cette boucle ?</p>\n<pre class=\"language-python\"><code>\ni = 0 \nwhile i &lt; 3: \n    i += 1 \nelse: \n    print(\"Terminé\")\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q021",
                 "answers": [
                     {
                         "text": "<p>Affiche \"Terminé\" après avoir exécuté la boucle</p>",
@@ -3213,6 +3363,7 @@
             {
                 "text": "<p>Que fait le code suivant :</p>\n<pre class=\"language-python\"><code>\nx = 97\nmy_string = \"Start\"\nwhile x &gt; 100:\n    my_string = my_string + chr(x)\n    x = x + 1\nelse:\n    my_string = \"42\"\n\nprint(\"The answer is \" + my_string)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q022",
                 "answers": [
                     {
                         "text": "<p>Il affiche : \"The answer is 42\"</p>",
@@ -3241,6 +3392,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant ?</p>\n<pre><code>\nmatrix = [[1, 2, 3], [4, 5, 6]]\ntransposed = list(zip(*matrix))\nprint(transposed)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "<p>[(1, 4), (2, 5), (3, 6)]</p>",
@@ -3264,6 +3416,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant ?</p>\n<pre><code>\nlists = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nresult = [sum(x) for x in zip(*lists)]\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "<p>[12, 15, 18]</p>",
@@ -3287,6 +3440,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant ?</p>\n<pre><code>\ndef fonction_travail(*args):\n    return list(zip(*args))\n\nprint(fonction_travail([1,2,3], [4,5,6]))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "<p>[(1,4), (2,5), (3,6)]</p>",
@@ -3310,6 +3464,7 @@
             {
                 "text": "Quel est le résultat du code suivant ?\n<pre><code>\ndef fonction_travail(s='bonjour', voyelles='aeiou'):\n    return sum(1 for char in s if char in voyelles)\n\nresultat = fonction_travail(s='hello')</code></pre>",
                 "type": "multichoice",
+                "name": "Q021",
                 "answers": [
                     {
                         "text": "2",
@@ -3333,6 +3488,7 @@
             {
                 "text": "Quelle sera la sortie de ce code ?\n<pre><code>def split_kwargs(**kwargs):\n    nums = {k: v for k, v in kwargs.items() if isinstance(v, (int, float))}\n    strs = {k: v for k, v in kwargs.items() if isinstance(v, str)}\n    return nums, strs\n\nprint(split_kwargs(a=1, b=\"hello\", c=2.0, d=\"world\"))</code></pre>",
                 "type": "multichoice",
+                "name": "Q22",
                 "answers": [
                     {
                         "text": "({'a': 1, 'c': 2.0}, {'b': 'hello', 'd': 'world'})",
@@ -3356,6 +3512,7 @@
             {
                 "text": "Quelle est la valeur de output ?\n<pre><code>def filter_none(**kwargs):\n    return {k: v for k, v in kwargs.items() if v is not None}\n\noutput = filter_none(a=1, b=None, c=\"hello\", d=None)</code></pre>",
                 "type": "multichoice",
+                "name": "Q24",
                 "answers": [
                     {
                         "text": "{'a': 1, 'c': 'hello'}",
@@ -3379,6 +3536,7 @@
             {
                 "text": "Quelle est la sortie de ce code ?\n<pre><code>def group_by_type(**kwargs):\n    groups = {}\n    for k, v in kwargs.items():\n        t = type(v).__name__\n        if t not in groups:\n            groups[t] = {}\n        groups[t][k] = v\n    return groups\n\nprint(group_by_type(a=1, b=\"hello\", c=2.0, d=\"world\"))</code></pre>",
                 "type": "multichoice",
+                "name": "Q28",
                 "answers": [
                     {
                         "text": "{'int': {'a': 1}, 'str': {'b': 'hello', 'd': 'world'}, 'float': {'c': 2.0}}",
@@ -3402,6 +3560,7 @@
             {
                 "text": "Quelle sera la valeur de result ?\n<pre><code>def apply_defaults(**kwargs):\n    defaults = {\"mode\": \"test\", \"retry\": 3}\n    for k, v in defaults.items():\n        if isinstance(v, (int, float, str)):\n            kwargs.setdefault(k, v)\n    return kwargs\n\nresult = apply_defaults(mode=\"prod\", timeout=30)</code></pre>",
                 "type": "multichoice",
+                "name": "Q30",
                 "answers": [
                     {
                         "text": "{'mode': 'prod', 'timeout': 30, 'retry': 3}",
@@ -3425,6 +3584,7 @@
             {
                 "text": "Que fait ce code ?\n<pre><code>def filter_kwargs(**kwargs):\n    return {k: v for k, v in kwargs.items() if isinstance(v, int)}</code></pre>",
                 "type": "multichoice",
+                "name": "Q5",
                 "answers": [
                     {
                         "text": "Retourne un nouveau dictionnaire ne contenant que les valeurs de type entier",
@@ -3448,6 +3608,7 @@
             {
                 "text": "Quelle sera la sortie de ce code ?\n<pre><code>def combine(**kwargs):\n    return \"-\".join(str(v) for v in kwargs.values())\n\nprint(combine(a=1, b=\"hello\", c=3))</code></pre>",
                 "type": "multichoice",
+                "name": "Q6",
                 "answers": [
                     {
                         "text": "\"1-hello-3\"",
@@ -3471,6 +3632,7 @@
             {
                 "text": "<p>Quelle sera la sortie du code suivant ?</p>\n<pre class=\"language-python\"><code>def analyze_words(words):\n    categories = {\n        'short': [],\n        'medium': [],\n        'long': []\n    }\n    \n    for word in words:\n        length = len(word)\n        if length &lt;= 3:\n            categories['short'].append(word.upper())\n        elif length &lt;= 6:\n            categories['medium'].append(word.capitalize())\n        else:\n            categories['long'].append(word.lower())\n            \n    return {k: sorted(v) for k, v in categories.items()}\n\ntest = [\"hi\", \"hello\", \"bonjour\", \"yes\", \"python\", \"ok\"]\nprint(analyze_words(test))</code></pre>",
                 "type": "multichoice",
+                "name": "Reflex niv2 09",
                 "answers": [
                     {
                         "text": "<p>{'short': ['HI', 'OK', 'YES'], 'medium': ['Hello', 'Python'], 'long': ['bonjour']}</p>",
@@ -3503,6 +3665,7 @@
             {
                 "text": "Quel sera le résultat de cette compréhension de liste ?\n<pre><code>nombres = [1, 2, 3, 4, 5]\nresultat = [x * 2 for x in nombres if x &gt; 2]</code></pre>",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "[2, 4, 6, 8, 10]",
@@ -3526,6 +3689,7 @@
             {
                 "text": "Que produit cette compréhension imbriquée ?\n<pre><code>matrice = [[1, 2], [3, 4]]\nresultat = [elem for ligne in matrice for elem in ligne]</code></pre>",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "[[1, 2], [3, 4]]",
@@ -3549,6 +3713,7 @@
             {
                 "text": "Quel est le résultat de cette compréhension conditionnelle ?\n<pre><code>nombres = [-2, -1, 0, 1, 2]\nresultat = [x if x &gt; 0 else 0 for x in nombres]</code></pre>",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "[-2, -1, 0, 1, 2]",
@@ -3572,6 +3737,7 @@
             {
                 "text": "Que produit cette compréhension avec zip ?\n<pre><code>x = [1, 2, 3]\ny = ['a', 'b', 'c']\nresultat = [(a, b) for a, b in zip(x, y)]</code></pre>",
                 "type": "multichoice",
+                "name": "Q004",
                 "answers": [
                     {
                         "text": "[1, 2, 3, 'a', 'b', 'c']",
@@ -3595,6 +3761,7 @@
             {
                 "text": "<p>Quel est le résultat de cette compréhension avec chaînes ?</p>\n<pre><code>mots = [\"python\", \"java\", \"ruby\"]\nresultat = [mot.upper() for mot in mots if len(mot) &gt; 4]</code></pre>",
                 "type": "multichoice",
+                "name": "Q005",
                 "answers": [
                     {
                         "text": "<p>[\"PYTHON\", \"JAVA\", \"RUBY\"]</p>",
@@ -3618,6 +3785,7 @@
             {
                 "text": "Comment fonctionne cette compréhension avec range ?\n<pre><code>resultat = [x**2 for x in range(5) if x % 2 == 0]</code></pre>",
                 "type": "multichoice",
+                "name": "Q006",
                 "answers": [
                     {
                         "text": "[0, 1, 4, 9, 16]",
@@ -3641,6 +3809,7 @@
             {
                 "text": "<p>Que donne cette compréhension avec deux conditions ?</p>\n<pre><code>nombres = [-1, 0, 1, 2, 3, 4]\nresultat = [x for x in nombres if x &gt; 0 if x % 2 == 0]</code></pre>",
                 "type": "multichoice",
+                "name": "Q007",
                 "answers": [
                     {
                         "text": "<p>[2, 2]</p>",
@@ -3664,6 +3833,7 @@
             {
                 "text": "Quel est le résultat de cette compréhension avec dictionnaire ?\n<pre><code>d = {'a': 1, 'b': 2, 'c': 3}\nresultat = [k + str(v) for k, v in d.items()]</code></pre>",
                 "type": "multichoice",
+                "name": "Q008",
                 "answers": [
                     {
                         "text": "['a', 'b', 'c']",
@@ -3687,6 +3857,7 @@
             {
                 "text": "Que produit cette compréhension avec enumerate ?\n<pre><code>mots = ['chat', 'chien']\nresultat = [(i, mot.upper()) for i, mot in enumerate(mots)]</code></pre>",
                 "type": "multichoice",
+                "name": "Q009",
                 "answers": [
                     {
                         "text": "['CHAT', 'CHIEN']",
@@ -3710,6 +3881,7 @@
             {
                 "text": "Quel est le résultat de cette compréhension imbriquée ?\n<pre><code>matrice = [[1, 2], [3, 4]]\nresultat = [[x + 1 for x in ligne] for ligne in matrice]</code></pre>",
                 "type": "multichoice",
+                "name": "Q010",
                 "answers": [
                     {
                         "text": "[2, 3, 4, 5]",
@@ -3733,6 +3905,7 @@
             {
                 "text": "<p>Que donne cette compréhension ?</p>\n<pre><code>nombres = [1, 2, 2, 3, 3, 4]\nresultat = [x for x in set(nombres) if x % 2 == 0]</code></pre>",
                 "type": "multichoice",
+                "name": "Q011",
                 "answers": [
                     {
                         "text": "<p>[2, 2, 4]</p>",
@@ -3756,6 +3929,7 @@
             {
                 "text": "Quel est le résultat de cette compréhension avec all ?\n<pre><code>mots = ['python', 'java', 'ruby']\nresultat = [mot for mot in mots if all(c.lower() in 'aeiou' for c in mot)]</code></pre>",
                 "type": "multichoice",
+                "name": "Q012",
                 "answers": [
                     {
                         "text": "['python', 'java', 'ruby']",
@@ -3779,6 +3953,7 @@
             {
                 "text": "Que produit cette compréhension avec str.join ?\n<pre><code>nombres = [1, 2, 3]\nresultat = ['-'.join(str(x) for x in range(n)) for n in nombres]</code></pre>",
                 "type": "multichoice",
+                "name": "Q013",
                 "answers": [
                     {
                         "text": "['1', '2', '3']",
@@ -3802,6 +3977,7 @@
             {
                 "text": "Quel est le résultat de cette compréhension avec any ?\n<pre><code>mots = ['hello', 'world', 'python']\nresultat = [mot for mot in mots if any(c.isupper() for c in mot)]</code></pre>",
                 "type": "multichoice",
+                "name": "Q014",
                 "answers": [
                     {
                         "text": "['hello', 'world', 'python']",
@@ -3825,6 +4001,7 @@
             {
                 "text": "<p>Que donne cette compréhension ?</p>\n<pre><code>\nresultat = [x * 2 for x in range(4)]\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q015",
                 "answers": [
                     {
                         "text": "<p>[0, 1, 2, 3]</p>",
@@ -3848,6 +4025,7 @@
             {
                 "text": "<p>Quel est le résultat de cette compréhension avec filter ?</p>\n<pre><code>\nnombres = [1, 2, 3, 4, 5]\nresultat = [x for x in nombres if x % 2 == 0]\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q016",
                 "answers": [
                     {
                         "text": "<p>[1, 2, 3, 4, 5]</p>",
@@ -3871,6 +4049,7 @@
             {
                 "text": "Que produit cette compréhension avec map ?\n<pre><code>nombres = [1, 2, 3]\nresultat = [x for x in map(str, nombres)]</code></pre>",
                 "type": "multichoice",
+                "name": "Q017",
                 "answers": [
                     {
                         "text": "[1, 2, 3]",
@@ -3894,6 +4073,7 @@
             {
                 "text": "Quel est le résultat de cette compréhension avec isinstance ?\n<pre><code>donnees = [1, '2', 3, '4']\nresultat = [int(x) for x in donnees if isinstance(x, str)]</code></pre>",
                 "type": "multichoice",
+                "name": "Q018",
                 "answers": [
                     {
                         "text": "[1, 2, 3, 4]",
@@ -3917,6 +4097,7 @@
             {
                 "text": "Que donne cette compréhension avec sum ?\n<pre><code>matrice = [[1, 2], [3, 4]]\nresultat = [sum(ligne) for ligne in matrice]</code></pre>",
                 "type": "multichoice",
+                "name": "Q019",
                 "answers": [
                     {
                         "text": "[1, 2, 3, 4]",
@@ -3940,6 +4121,7 @@
             {
                 "text": "Quel est le résultat de cette compréhension avec sorted ?\n<pre><code>mots = ['python', 'java', 'ruby']\nresultat = [mot for mot in sorted(mots, key=len)]</code></pre>",
                 "type": "multichoice",
+                "name": "Q020",
                 "answers": [
                     {
                         "text": "['python', 'java', 'ruby']",
@@ -3963,6 +4145,7 @@
             {
                 "text": "Que produit cette compréhension avec reversed ?\n<pre><code>nombres = [1, 2, 3]\nresultat = [x for x in reversed([x**2 for x in nombres])]</code></pre>",
                 "type": "multichoice",
+                "name": "Q021",
                 "answers": [
                     {
                         "text": "[1, 2, 3]",
@@ -3986,6 +4169,7 @@
             {
                 "text": "Quel est le résultat de cette compréhension avec round ?\n<pre><code>nombres = [1.234, 2.345, 3.456]\nresultat = [round(x, 1) for x in nombres]</code></pre>",
                 "type": "multichoice",
+                "name": "Q022",
                 "answers": [
                     {
                         "text": "[1.234, 2.345, 3.456]",
@@ -4009,6 +4193,7 @@
             {
                 "text": "Que donne cette compréhension avec abs ?\n<pre><code>nombres = [-2, -1, 0, 1, 2]\nresultat = [abs(x) for x in nombres if x &lt; 0]</code></pre>",
                 "type": "multichoice",
+                "name": "Q023",
                 "answers": [
                     {
                         "text": "[-2, -1, 0, 1, 2]",
@@ -4032,6 +4217,7 @@
             {
                 "text": "Quel est le résultat de cette compréhension avec min/max ?\n<pre><code>nombres = [[1, 2], [3, 4], [5, 6]]\nresultat = [(min(x), max(x)) for x in nombres]</code></pre>",
                 "type": "multichoice",
+                "name": "Q024",
                 "answers": [
                     {
                         "text": "[1, 2, 3, 4, 5, 6]",
@@ -4055,6 +4241,7 @@
             {
                 "text": "Que produit cette compréhension avec chr ?\n<pre><code>nombres = range(65, 68)\nresultat = [chr(x) for x in nombres]</code></pre>",
                 "type": "multichoice",
+                "name": "Q025",
                 "answers": [
                     {
                         "text": "[65, 66, 67]",
@@ -4078,6 +4265,7 @@
             {
                 "text": "Quel est le résultat de cette compréhension avec ord ?\n<pre><code>lettres = ['A', 'B', 'C']\nresultat = [ord(x) for x in lettres]</code></pre>",
                 "type": "multichoice",
+                "name": "Q026",
                 "answers": [
                     {
                         "text": "['A', 'B', 'C']",
@@ -4101,6 +4289,7 @@
             {
                 "text": "Que donne cette compréhension avec bin ?\n<pre><code>nombres = [2, 3, 4]\nresultat = [bin(x)[2:] for x in nombres]</code></pre>",
                 "type": "multichoice",
+                "name": "Q027",
                 "answers": [
                     {
                         "text": "[2, 3, 4]",
@@ -4124,6 +4313,7 @@
             {
                 "text": "Quel est le résultat de cette compréhension avec hex ?\n<pre><code>nombres = [10, 11, 12]\nresultat = [hex(x)[2:] for x in nombres]</code></pre>",
                 "type": "multichoice",
+                "name": "Q028",
                 "answers": [
                     {
                         "text": "[10, 11, 12]",
@@ -4147,6 +4337,7 @@
             {
                 "text": "Que produit cette compréhension avec isinstance et type ?\n<pre><code>donnees = [1, 'deux', 3.0, [4]]\nresultat = [type(x).__name__ for x in donnees]</code></pre>",
                 "type": "multichoice",
+                "name": "Q029",
                 "answers": [
                     {
                         "text": "[1, 'deux', 3.0, [4]]",
@@ -4175,6 +4366,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in range(10) if x % 2 == 0}</code></pre>",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "<pre>{0, 2, 4, 6, 8}</pre>",
@@ -4198,6 +4390,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x ** 2 for x in range(5)}</code></pre>",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "<pre>{0, 1, 4, 9, 16}</pre>",
@@ -4221,6 +4414,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in 'abracadabra' if x not in 'abc'}</code></pre>",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "<pre>{'r', 'd'}</pre>",
@@ -4244,6 +4438,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x + y for x in [1, 2, 3] for y in [4, 5, 6]}</code></pre>",
                 "type": "multichoice",
+                "name": "Q004",
                 "answers": [
                     {
                         "text": "<pre>{5, 6, 7, 8, 9}</pre>",
@@ -4267,6 +4462,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in range(10) if x % 3 == 0}</code></pre>",
                 "type": "multichoice",
+                "name": "Q005",
                 "answers": [
                     {
                         "text": "<pre>{0, 3, 6, 9}</pre>",
@@ -4290,6 +4486,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in 'hello' if x in 'aeiou'}</code></pre>",
                 "type": "multichoice",
+                "name": "Q006",
                 "answers": [
                     {
                         "text": "<pre>{'e', 'o'}</pre>",
@@ -4313,6 +4510,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x * 2 for x in range(5)}</code></pre>",
                 "type": "multichoice",
+                "name": "Q007",
                 "answers": [
                     {
                         "text": "<pre>{0, 2, 4, 6, 8}</pre>",
@@ -4336,6 +4534,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in range(10) if x &gt; 5}</code></pre>",
                 "type": "multichoice",
+                "name": "Q008",
                 "answers": [
                     {
                         "text": "<pre>{6, 7, 8, 9}</pre>",
@@ -4359,6 +4558,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in 'python' if x not in 'aeiou'}</code></pre>",
                 "type": "multichoice",
+                "name": "Q009",
                 "answers": [
                     {
                         "text": "<pre>{'p', 'y', 't', 'h', 'n'}</pre>",
@@ -4382,6 +4582,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x + y for x in [1, 2] for y in [3, 4]}</code></pre>",
                 "type": "multichoice",
+                "name": "Q010",
                 "answers": [
                     {
                         "text": "<pre>{4, 5, 6}</pre>",
@@ -4405,6 +4606,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in range(20) if x % 4 == 0}</code></pre>",
                 "type": "multichoice",
+                "name": "Q011",
                 "answers": [
                     {
                         "text": "<pre>{0, 4, 8, 12, 16}</pre>",
@@ -4428,6 +4630,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in 'programming' if x in 'aeiou'}</code></pre>",
                 "type": "multichoice",
+                "name": "Q012",
                 "answers": [
                     {
                         "text": "<pre>{'o', 'a', 'i'}</pre>",
@@ -4451,6 +4654,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x * 3 for x in range(4)}</code></pre>",
                 "type": "multichoice",
+                "name": "Q013",
                 "answers": [
                     {
                         "text": "<pre>{0, 3, 6, 9}</pre>",
@@ -4474,6 +4678,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in range(15) if x &lt; 10}</code></pre>",
                 "type": "multichoice",
+                "name": "Q014",
                 "answers": [
                     {
                         "text": "<pre>{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}</pre>",
@@ -4497,6 +4702,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in 'abcdef' if x not in 'abc'}</code></pre>",
                 "type": "multichoice",
+                "name": "Q015",
                 "answers": [
                     {
                         "text": "<pre>{'d', 'e', 'f'}</pre>",
@@ -4520,6 +4726,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x + y for x in [10, 20] for y in [30, 40]}</code></pre>",
                 "type": "multichoice",
+                "name": "Q016",
                 "answers": [
                     {
                         "text": "<pre>{40, 50, 60}</pre>",
@@ -4543,6 +4750,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in range(25) if x % 5 == 0}</code></pre>",
                 "type": "multichoice",
+                "name": "Q017",
                 "answers": [
                     {
                         "text": "<pre>{0, 5, 10, 15, 20}</pre>",
@@ -4566,6 +4774,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in 'algorithm' if x in 'aeiou'}</code></pre>",
                 "type": "multichoice",
+                "name": "Q018",
                 "answers": [
                     {
                         "text": "<pre>{'a', 'o', 'i'}</pre>",
@@ -4589,6 +4798,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x * 4 for x in range(3)}</code></pre>",
                 "type": "multichoice",
+                "name": "Q019",
                 "answers": [
                     {
                         "text": "<pre>{0, 4, 8}</pre>",
@@ -4612,6 +4822,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in range(30) if x &gt; 25}</code></pre>",
                 "type": "multichoice",
+                "name": "Q020",
                 "answers": [
                     {
                         "text": "<pre>{26, 27, 28, 29}</pre>",
@@ -4635,6 +4846,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in 'abcdefgh' if x not in 'abc'}</code></pre>",
                 "type": "multichoice",
+                "name": "Q021",
                 "answers": [
                     {
                         "text": "<pre>{'d', 'e', 'f', 'g', 'h'}</pre>",
@@ -4658,6 +4870,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x + y for x in [5, 10] for y in [15, 20]}</code></pre>",
                 "type": "multichoice",
+                "name": "Q022",
                 "answers": [
                     {
                         "text": "<pre>{20, 25, 30}</pre>",
@@ -4681,6 +4894,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in range(50) if x % 10 == 0}</code></pre>",
                 "type": "multichoice",
+                "name": "Q023",
                 "answers": [
                     {
                         "text": "<pre>{0, 10, 20, 30, 40}</pre>",
@@ -4704,6 +4918,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in 'programming' if x in 'aeiou'}</code></pre>",
                 "type": "multichoice",
+                "name": "Q024",
                 "answers": [
                     {
                         "text": "<pre>{'o', 'a', 'i'}</pre>",
@@ -4727,6 +4942,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x * 5 for x in range(4)}</code></pre>",
                 "type": "multichoice",
+                "name": "Q025",
                 "answers": [
                     {
                         "text": "<pre>{0, 5, 10, 15}</pre>",
@@ -4750,6 +4966,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in range(100) if x &lt; 10}</code></pre>",
                 "type": "multichoice",
+                "name": "Q026",
                 "answers": [
                     {
                         "text": "<pre>{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}</pre>",
@@ -4773,6 +4990,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>s = {x for x in 'abcdefghij' if x not in 'abc'}</code></pre>",
                 "type": "multichoice",
+                "name": "Q027",
                 "answers": [
                     {
                         "text": "<pre>{'d', 'e', 'f', 'g', 'h', 'i', 'j'}</pre>",
@@ -4801,6 +5019,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nt = (x for x in range(3))\nprint(tuple(t))</code></pre>",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "<pre>(0, 1, 2)</pre>",
@@ -4824,6 +5043,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\nt = tuple(x * 2 for x in range(3))\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "Il génère un tuple contenant les valeurs (0, 2, 4).",
@@ -4847,6 +5067,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nt = tuple(x for x in range(5) if x % 2 == 0)\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "<pre>(0, 2, 4)</pre>",
@@ -4870,6 +5091,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\nt = tuple((x, y) for x in range(2) for y in range(2))\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q004",
                 "answers": [
                     {
                         "text": "Il génère un tuple de tuples contenant toutes les combinaisons de (x, y) pour x et y dans [0, 1].",
@@ -4893,6 +5115,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nt = tuple((x, y) for x in range(2) for y in range(2))\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q005",
                 "answers": [
                     {
                         "text": "<pre>((0, 0), (0, 1), (1, 0), (1, 1))</pre>",
@@ -4916,6 +5139,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\nt = tuple(x + y for x in range(2) for y in range(2))\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q006",
                 "answers": [
                     {
                         "text": "Il génère un tuple contenant les sommes de x et y pour toutes les combinaisons de x et y dans [0, 1].",
@@ -4939,6 +5163,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nt = tuple(x + y for x in range(2) for y in range(2))\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q007",
                 "answers": [
                     {
                         "text": "<pre>(0, 1, 1, 2)</pre>",
@@ -4962,6 +5187,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\nt = tuple(x for x in range(10) if x % 3 == 0)\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q008",
                 "answers": [
                     {
                         "text": "Il génère un tuple contenant les multiples de 3 entre 0 et 9.",
@@ -4985,6 +5211,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nt = tuple(x for x in range(10) if x % 3 == 0)\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q009",
                 "answers": [
                     {
                         "text": "<pre>(0, 3, 6, 9)</pre>",
@@ -5008,6 +5235,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\nt = tuple((x, y) for x in range(3) for y in range(3) if x == y)\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q010",
                 "answers": [
                     {
                         "text": "Il génère un tuple de tuples contenant les paires (x, y) où x est égal à y.",
@@ -5031,6 +5259,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nt = tuple((x, y) for x in range(3) for y in range(3) if x == y)\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q011",
                 "answers": [
                     {
                         "text": "<pre>((0, 0), (1, 1), (2, 2))</pre>",
@@ -5054,6 +5283,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\nt = tuple(x ** 2 for x in range(5))\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q012",
                 "answers": [
                     {
                         "text": "Il génère un tuple contenant les carrés des nombres de 0 à 4.",
@@ -5077,6 +5307,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nt = tuple(x ** 2 for x in range(5))\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q013",
                 "answers": [
                     {
                         "text": "<pre>(0, 1, 4, 9, 16)</pre>",
@@ -5100,6 +5331,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\nt = tuple((x, y) for x in range(2) for y in range(3))\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q014",
                 "answers": [
                     {
                         "text": "Il génère un tuple de tuples contenant toutes les combinaisons de (x, y) pour x dans [0, 1] et y dans [0, 1, 2].",
@@ -5123,6 +5355,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nt = tuple((x, y) for x in range(2) for y in range(3))\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q015",
                 "answers": [
                     {
                         "text": "<pre>((0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2))</pre>",
@@ -5146,6 +5379,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\nt = tuple(x for x in range(10) if x % 2 == 0 and x % 3 == 0)\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q016",
                 "answers": [
                     {
                         "text": "Il génère un tuple contenant les nombres entre 0 et 9 qui sont divisibles par 2 et 3.",
@@ -5169,6 +5403,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nt = tuple(x for x in range(10) if x % 2 == 0 and x % 3 == 0)\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q017",
                 "answers": [
                     {
                         "text": "<pre>(0, 6)</pre>",
@@ -5192,6 +5427,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\nt = tuple((x, y, z) for x in range(2) for y in range(2) for z in range(2))\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q018",
                 "answers": [
                     {
                         "text": "Il génère un tuple de tuples contenant toutes les combinaisons de (x, y, z) pour x, y et z dans [0, 1].",
@@ -5215,6 +5451,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nt = tuple((x, y, z) for x in range(2) for y in range(2) for z in range(2))\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q019",
                 "answers": [
                     {
                         "text": "<pre>((0, 0, 0), (0, 0, 1), (0, 1, 0), (0, 1, 1), (1, 0, 0), (1, 0, 1), (1, 1, 0), (1, 1, 1))</pre>",
@@ -5238,6 +5475,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\nt = tuple((x, y) for x in range(3) if x % 2 == 0 for y in range(3) if y % 2 != 0)\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q020",
                 "answers": [
                     {
                         "text": "Il génère un tuple de tuples contenant les paires (x, y) où x est pair et y est impair.",
@@ -5261,6 +5499,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nt = tuple((x, y) for x in range(3) if x % 2 == 0 for y in range(3) if y % 2 != 0)\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q021",
                 "answers": [
                     {
                         "text": "<pre>((0, 1), (2, 1))</pre>",
@@ -5284,6 +5523,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\nt = tuple((x, y) for x in range(4) for y in range(x))\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q022",
                 "answers": [
                     {
                         "text": "Il génère un tuple de tuples contenant les paires (x, y) où y est inférieur à x.",
@@ -5307,6 +5547,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nt = tuple((x, y) for x in range(4) for y in range(x))\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q023",
                 "answers": [
                     {
                         "text": "<pre>((1, 0), (2, 0), (2, 1), (3, 0), (3, 1), (3, 2))</pre>",
@@ -5330,6 +5571,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\nt = tuple((x, y) for x in range(3) for y in range(3) if x + y == 2)\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q024",
                 "answers": [
                     {
                         "text": "Il génère un tuple de tuples contenant les paires (x, y) où x + y est égal à 2.",
@@ -5353,6 +5595,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nt = tuple((x, y) for x in range(3) for y in range(3) if x + y == 2)\nprint(t)</code></pre>",
                 "type": "multichoice",
+                "name": "Q025",
                 "answers": [
                     {
                         "text": "<pre>((0, 2), (1, 1), (2, 0))</pre>",
@@ -5381,6 +5624,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nd = {x: x**2 for x in range(3)}\nprint(d)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "<pre>{0: 0, 1: 1, 2: 4}</pre>",
@@ -5404,6 +5648,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant ?</p>\n<pre><code>\nd = {x: y for x in range(5) if x &gt; 2 for y in range(x)}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "<pre>{3: 2, 4: 3}</pre>",
@@ -5427,6 +5672,7 @@
             {
                 "text": "<p>Quel est le résultat de ce code ?</p>\n<pre><code>\nd = {x: x**2 for x in [1, 2, 3]}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "<pre>{1: 1, 2: 4, 3: 9}</pre>",
@@ -5450,6 +5696,7 @@
             {
                 "text": "<p>Que renvoie le code suivant ?</p>\n<pre><code>\nd = {char: (i**2) for i, char in enumerate('abc')}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q004",
                 "answers": [
                     {
                         "text": "<pre>{'a': 0, 'b': 1, 'c': 4}</pre>",
@@ -5473,6 +5720,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nlst = [1, 2, 3]\nd = {x: x*2 for x in lst}\nprint(d)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q005",
                 "answers": [
                     {
                         "text": "<pre>{1: 2, 2: 4, 3: 6}</pre>",
@@ -5496,6 +5744,7 @@
             {
                 "text": "<p>Quel est le résultat de ce code ?</p>\n<pre><code>\nd = {x: 'pair' if x % 2 == 0 else 'impair' for x in range(5)}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q006",
                 "answers": [
                     {
                         "text": "<pre>{0: 'pair', 1: 'impair', 2: 'pair', 3: 'impair', 4: 'pair'</pre>",
@@ -5519,6 +5768,7 @@
             {
                 "text": "<p>Qu'affiche le code suivant ?</p>\n<pre><code>\nd = {x: x for x in range(10) if x % 2 != 0}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q007",
                 "answers": [
                     {
                         "text": "<pre>{1: 1, 3: 3, 5: 5, 7: 7, 9: 9}</pre>",
@@ -5542,6 +5792,7 @@
             {
                 "text": "<p>Quelle est la sortie de ce code ?</p>\n<pre><code>\nd = {i: i*10 for i in range(3)}\nprint(d)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q008",
                 "answers": [
                     {
                         "text": "<pre>{0: 0, 1: 10, 2: 20}</pre>",
@@ -5565,6 +5816,7 @@
             {
                 "text": "<p>Qu'affiche le code suivant ?</p>\n<pre><code>\noriginal = {'a': 1, 'b': 2, 'c': 3}\nd = {value: key for key, value in original.items()}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q009",
                 "answers": [
                     {
                         "text": "<pre>{1: 'a', 2: 'b', 3: 'c'}</pre>",
@@ -5588,6 +5840,7 @@
             {
                 "text": "<p>Quelle est la sortie de ce code ?</p>\n<pre><code>\nlst = ['a', 'b', 'c']\nd = {x: i for i, x in enumerate(lst)}\nprint(d)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q010",
                 "answers": [
                     {
                         "text": "<pre>{'a': 0, 'b': 1, 'c': 2}</pre>",
@@ -5611,6 +5864,7 @@
             {
                 "text": "<p>Comment créer un dictionnaire où chaque clé est un nombre pair de 0 à 8 et chaque valeur est la somme de ses chiffres ?</p>\n<pre><code>\nd = {x: sum(int(digit) for digit in str(x)) for x in range(10) if x % 2 == 0}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q011",
                 "answers": [
                     {
                         "text": "<pre>{0: 0, 2: 2, 4: 4, 6: 6, 8: 8}</pre>",
@@ -5634,6 +5888,7 @@
             {
                 "text": "<p>Quel dictionnaire est créé par ce code ?</p>\n<pre><code>\nd = {x: x*2 for x in range(4)}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q012",
                 "answers": [
                     {
                         "text": "<pre>{0: 0, 1: 2, 2: 4, 3: 6}</pre>",
@@ -5657,6 +5912,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nd = {x: 'negatif' if x &lt; 0 else 'positif' for x in [-1, 0, 1]}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q013",
                 "answers": [
                     {
                         "text": "<pre>{-1: 'negatif', 0: 'positif', 1: 'positif'}</pre>",
@@ -5680,6 +5936,7 @@
             {
                 "text": "<p>Comment créer un dictionnaire où chaque clé est un nombre et chaque valeur est son double si le nombre est pair, sinon le nombre lui-même ?</p>\n<pre><code>\nd = {x: x * 2 if x % 2 == 0 else x for x in range(5)}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q014",
                 "answers": [
                     {
                         "text": "<pre>{0: 0, 1: 1, 2: 4, 3: 3, 4: 8}</pre>",
@@ -5703,6 +5960,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\nd = {x: x + y for x in range(2) for y in range(2)}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q015",
                 "answers": [
                     {
                         "text": "<pre>{0: 1, 1: 2}</pre>",
@@ -5726,6 +5984,7 @@
             {
                 "text": "Que fait le code suivant ?<br/>\n<pre><code>\nd = {x: y for x in range(3) for y in range(x)}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q016",
                 "answers": [
                     {
                         "text": "Il génère un dictionnaire où les clés sont les nombres de 0 à 2 et les valeurs sont les nombres de 0 à x-1.",
@@ -5749,6 +6008,7 @@
             {
                 "text": "Que fait le code suivant ?<br/>\n<pre><code>\nd = {x: x**2 for x in range(4) if x % 2 == 0}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q018",
                 "answers": [
                     {
                         "text": "Il génère un dictionnaire contenant les carrés des nombres pairs de 0 à 3.",
@@ -5772,6 +6032,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?<br/>\n<pre><code>\nd = {x: x**2 for x in range(4) if x % 2 == 0}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q019",
                 "answers": [
                     {
                         "text": "<pre>{0: 0, 2: 4}</pre>",
@@ -5795,6 +6056,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?<br/>\n<pre><code>\nd = {x: x + y for x in range(2) for y in range(2) if x == y}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q021",
                 "answers": [
                     {
                         "text": "<pre>{0: 0, 1: 2}</pre>",
@@ -5818,6 +6080,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?<br/>\n<pre><code>\nd = {x: y for x in range(3) for y in range(3) if x + y == 2}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q023",
                 "answers": [
                     {
                         "text": "<pre>{0: 2, 1: 1, 2: 0}</pre>",
@@ -5841,6 +6104,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?<br/>\n<pre><code>\nd = {x: x * y for x in range(3) for y in range(3) if x == y}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q025",
                 "answers": [
                     {
                         "text": "<pre>{0: 0, 1: 1, 2: 4}</pre>",
@@ -5864,6 +6128,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?<br/>\n<pre><code>\nd = {x: y for x in range(4) for y in range(x) if x % 2 == 0}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q027",
                 "answers": [
                     {
                         "text": "<pre>{2: 1}</pre>",
@@ -5887,6 +6152,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?<br/>\n<pre><code>\nd = {x: x + y for x in range(3) for y in range(3) if x > y}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q029",
                 "answers": [
                     {
                         "text": "<pre>{1: 1, 2: 3}</pre>",
@@ -5910,6 +6176,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?<br/>\n<pre><code>\nd = {x: x**2 for x in range(3)}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q030",
                 "answers": [
                     {
                         "text": "<pre>{0: 0, 1: 1, 2: 4}</pre>",
@@ -5933,6 +6200,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?<br/>\n<pre><code>\nd = {x: x + 1 for x in range(3)}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q032",
                 "answers": [
                     {
                         "text": "<pre>{0: 1, 1: 2, 2: 3}</pre>",
@@ -5956,6 +6224,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?<br/>\n<pre><code>\nd = {x: x**3 for x in range(3)}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q034",
                 "answers": [
                     {
                         "text": "<pre>{0: 0, 1: 1, 2: 8}</pre>",
@@ -5979,6 +6248,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?<br/>\n<pre><code>\nd = {x: x for x in range(5) if x % 2 == 0}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q036",
                 "answers": [
                     {
                         "text": "<pre>{0: 0, 2: 2, 4: 4}</pre>",
@@ -6002,6 +6272,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?<br/>\n<pre><code>\nd = {x: x**2 for x in range(6) if x % 3 == 0}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q038",
                 "answers": [
                     {
                         "text": "<pre>{0: 0, 3: 9}</pre>",
@@ -6025,6 +6296,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?<br/>\n<pre><code>\nd = {(x, y): x + y for x in range(2) for y in range(2)}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q040",
                 "answers": [
                     {
                         "text": "<pre>{(0, 0): 0, (0, 1): 1, (1, 0): 1, (1, 1): 2}</pre>",
@@ -6048,6 +6320,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?<br/>\n<pre><code>\nd = {x: y for x in range(3) for y in range(3)}\nprint(d)</code></pre>",
                 "type": "multichoice",
+                "name": "Q042",
                 "answers": [
                     {
                         "text": "<pre>{0: 2, 1: 2, 2: 2}</pre>",
@@ -6076,6 +6349,7 @@
             {
                 "text": "<p>Quel est le résultat de cette compréhension imbriquée de liste avec une condition ?</p>\n<pre><code>\nnested_list = [[j for j in range(i) if j % 2 == 0] for i in range(4)]\nprint(nested_list)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "<pre>[[], [0], [0], [0, 2]]</pre>",
@@ -6099,6 +6373,7 @@
             {
                 "text": "<p>Comment créer un dictionnaire avec des clés qui sont des tuples de paires de nombres impairs, et des valeurs qui sont la somme de ces nombres ?</p>\n<pre><code>\nd = {(x, y): x + y for x in range(5) if x % 2 != 0 for y in range(5) if y % 2 != 0}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "<pre>{(1, 1): 2, (1, 3): 4, (3, 1): 4, (3, 3): 6}</pre>\n<pre> </pre>",
@@ -6122,6 +6397,7 @@
             {
                 "text": "<p>Quelle est la sortie de ce code utilisant une compréhension de liste pour créer une matrice identité ?</p>\n<pre><code>\nidentity_matrix = [[1 if i == j else 0 for j in range(3)] for i in range(3)]\nprint(identity_matrix)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "<pre>[[1, 0, 0], [0, 1, 0], [0, 0, 1]]</pre>",
@@ -6145,6 +6421,7 @@
             {
                 "text": "<p>Comment créer un ensemble de tuples contenant chaque combinaison possible de deux mots de deux listes données ?</p>\n<pre><code>\nwords1 = ['a', 'b']\nwords2 = ['x', 'y', 'z']\ncombinations = {(w1, w2) for w1 in words1 for w2 in words2}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q004",
                 "answers": [
                     {
                         "text": "<pre>{('a', 'x'), ('a', 'y'), ('a', 'z'), ('b', 'x'), ('b', 'y'), ('b', 'z')}</pre>",
@@ -6168,6 +6445,7 @@
             {
                 "text": "<p>Quelle est la sortie de cette compréhension de liste avec transformation de chaînes et conditions multiples ?</p>\n<pre><code>\nlst = [\n    word.upper() if len(word) &gt; 3 else word.lower()\n    for word in [\"Python\", \"is\", \"fun\", \"to\", \"learn\"]\n    if not word.startswith(\"t\")\n]\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q005",
                 "answers": [
                     {
                         "text": "<pre>['PYTHON', 'is', 'fun', 'LEARN']</pre>",
@@ -6191,6 +6469,7 @@
             {
                 "text": "<p>Comment créer un dictionnaire où les clés sont les éléments uniques d'une liste, et les valeurs sont le nombre d'occurrences de chaque élément dans cette liste ?</p>\n<pre><code>\nlst = [1, 2, 2, 3, 4, 1, 5, 5, 3]\nd = {item: lst.count(item) for item in set(lst)}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q006",
                 "answers": [
                     {
                         "text": "<pre>{1: 2, 2: 2, 3: 2, 4: 1, 5: 2}</pre>",
@@ -6214,6 +6493,7 @@
             {
                 "text": "<p>Quelle est la sortie de cette compréhension de liste qui utilise `enumerate()` et une condition pour créer des paires conditionnelles ?</p>\n<pre><code>\nlst = [\"a\", \"b\", \"c\", \"d\"]\nresult = [\n    (index, char)\n    for index, char in enumerate(lst)\n    if index % 2 == 0 or char in [\"b\", \"d\"]\n]\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q007",
                 "answers": [
                     {
                         "text": "<pre>[(0, 'a'), (1, 'b'), (2, 'c'), (3, 'd')]</pre>",
@@ -6237,6 +6517,7 @@
             {
                 "text": "<p>Comment créer une liste de tuples où chaque tuple contient un nombre pair de 0 à 8 et tous ses diviseurs ?</p>\n<pre><code>\ndivisors_list = [\n    (num, [i for i in range(1, num + 1) if num % i == 0])\n    for num in range(0, 10)\n    if num % 2 == 0\n]\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q008",
                 "answers": [
                     {
                         "text": "<pre>[(0, []), (2, [1, 2]), (4, [1, 2, 4]), (6, [1, 2, 3, 6]), (8, [1, 2, 4, 8])]</pre>",
@@ -6260,6 +6541,7 @@
             {
                 "text": "<p>Quelle est la sortie de ce code utilisant une compréhension de liste pour créer une séquence de Fibonacci ?</p>\n<pre><code>\n</code></pre>\n<div style=\"color: #000000; background-color: #ffffff; font-family: Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace, Consolas, 'Courier New', monospace; font-weight: normal; font-size: 18px; line-height: 24px; white-space: pre;\">\n<div><span style=\"color: #000000;\">n = </span><span style=\"color: #098658;\">10</span></div>\n<div><span style=\"color: #000000;\">fibonacci = [</span><span style=\"color: #098658;\">0</span><span style=\"color: #000000;\">, </span><span style=\"color: #098658;\">1</span><span style=\"color: #000000;\">] + [fibonacci[i - </span><span style=\"color: #098658;\">1</span><span style=\"color: #000000;\">] + fibonacci[i - </span><span style=\"color: #098658;\">2</span><span style=\"color: #000000;\">] </span><span style=\"color: #0000ff;\">for</span><span style=\"color: #000000;\"> i </span><span style=\"color: #0000ff;\">in</span><span style=\"color: #000000;\"> range(</span><span style=\"color: #098658;\">2</span><span style=\"color: #000000;\">, n)]</span></div>\n<div><span style=\"color: #000000;\">print(fibonacci)</span></div>\n</div>\n<pre><code>\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q009",
                 "answers": [
                     {
                         "text": "<pre>[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]</pre>",
@@ -6283,6 +6565,7 @@
             {
                 "text": "<p>Comment créer un dictionnaire où chaque clé est un nombre de 1 à 5 et chaque valeur est une liste des carrés de tous les nombres inférieurs ou égaux à cette clé ?</p>\n<pre><code>\nd = {\n    i: [j**2 for j in range(1, i + 1)]\n    for i in range(1, 6)\n}\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q010",
                 "answers": [
                     {
                         "text": "<pre>{1: [1], 2: [1, 4], 3: [1, 4, 9], 4: [1, 4, 9, 16], 5: [1, 4, 9, 16, 25]}</pre>",
@@ -6311,6 +6594,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(*args):\n    print(args)\n\nfonction_travail(1, 2, 3)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "(1, 2, 3)",
@@ -6334,6 +6618,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(*args):\n   return sum(args)\n\nresultat = fonction_travail(10, 20, 30)\n</code></pre>Quel est le contenu de `resultat` ?",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "60",
@@ -6357,6 +6642,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(*args):\n   print(type(args))\n\nfonction_travail(1, 2, 3)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "&lt;class 'tuple'&gt;",
@@ -6380,6 +6666,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(*args):\n   return len(args)\n\nresultat = fonction_travail(1, 2, 3, 4)\n</code></pre>Quel est le contenu de `resultat` ?",
                 "type": "multichoice",
+                "name": "Q004",
                 "answers": [
                     {
                         "text": "4",
@@ -6403,6 +6690,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(*args):\n    print(args[0])\n\nfonction_travail(10, 20, 30)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q005",
                 "answers": [
                     {
                         "text": "10",
@@ -6426,6 +6714,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(*args):\n    print(args[-1])\n\nfonction_travail(10, 20, 30)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q006",
                 "answers": [
                     {
                         "text": "30",
@@ -6449,6 +6738,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(*args):\n    for arg in args:\n        print(arg)\n\nfonction_travail(1, 2, 3)\n</code></pre>\n<p>Quel est le résultat de l'exécution de ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q007",
                 "answers": [
                     {
                         "text": "<pre>1\n2\n3</pre>",
@@ -6472,6 +6762,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(*args):\n    for arg in reversed(args):\n        print(arg)\n\nfonction_travail(1, 2, 3)\n</code></pre>\n<p>Quel est le résultat de l'exécution de ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q008",
                 "answers": [
                     {
                         "text": "<pre>3\n2\n1\n</pre>",
@@ -6495,6 +6786,7 @@
             {
                 "text": "<p>Qu'affiche le code suivant :</p>\n<pre><code>\ndef fonction_travail(*args):\n    for index, arg in enumerate(reversed(args), start=1):\n        print(f\"{index}: {arg}\")\n\nfonction_travail(10, 20, 30)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q009",
                 "answers": [
                     {
                         "text": "<pre>1: 30\n2: 20\n3: 10\n</pre>",
@@ -6518,6 +6810,7 @@
             {
                 "text": "<p>Qu'affiche le code suivant :</p>\n<pre><code>\ndef fonction_travail(*args):\n    for index, arg in enumerate(reversed(args)):\n        print(f\": {arg}\")\n\nfonction_travail(10, 20, 30)\n</code> </pre>",
                 "type": "multichoice",
+                "name": "Q010",
                 "answers": [
                     {
                         "text": "<pre>: 30\n: 20\n: 10\n</pre>",
@@ -6541,6 +6834,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(*args):\n    for index, arg in enumerate(reversed(args), start=1):\n        print(f\": {arg}\")\n\nfonction_travail(10, 20, 30)\n</code></pre>\n<p>Quel est le résultat de l'exécution de ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q011",
                 "answers": [
                     {
                         "text": "<pre>1: 30\n2: 20\n3: 10 </pre>",
@@ -6569,6 +6863,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    for key, value in kwargs.items():\n        print(f\"{key}: {value}\")\n\nfonction_travail(nom=\"Alice\", age=25)\n</code></pre>\n<p>Quel est le résultat de l'exécution de ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "<p>nom: Alice age: 25</p>",
@@ -6596,6 +6891,7 @@
             {
                 "text": "<pre style=\"border: 2px solid; border-radius: 5px; padding: 10px;\"><code>\ndef fonction_travail(**kwargs):\n    del(kwargs[\"x\"])\n    return kwargs\n\nresultat = fonction_travail(x=10, y=20)\n</code></pre>\n<p>Quel est le contenu de `resultat` ?</p>",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "<p>{\"y\": 20}</p>",
@@ -6619,6 +6915,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    print(type(kwargs))\n\nfonction_travail(a=1, b=2)\n</code></pre>\n<p>Quel est le résultat de l'exécution de ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "<p>&lt;class 'dict'&gt;</p>",
@@ -6642,6 +6939,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    return len(kwargs)\n\nresultat = fonction_travail(a=1, b=2, c=3)\n</code></pre>Quel est le contenu de `resultat` ?",
                 "type": "multichoice",
+                "name": "Q004",
                 "answers": [
                     {
                         "text": "3",
@@ -6665,6 +6963,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    print(kwargs.get(\"x\"))\n\nfonction_travail(x=10, y=20)\n</code></pre>\n<p>Quel est le résultat de l'exécution de ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q005",
                 "answers": [
                     {
                         "text": "<p>10</p>",
@@ -6688,6 +6987,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    print(kwargs.get(\"z\", 100))\n\nfonction_travail(x=10, y=20)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q006",
                 "answers": [
                     {
                         "text": "100",
@@ -6711,6 +7011,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    print(list(kwargs.keys()))\n\nfonction_travail(a=1, b=2, c=3)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q007",
                 "answers": [
                     {
                         "text": "['a', 'b', 'c']",
@@ -6734,6 +7035,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    print(list(kwargs.values()))\n\nfonction_travail(a=1, b=2, c=3)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q008",
                 "answers": [
                     {
                         "text": "[1, 2, 3]",
@@ -6757,6 +7059,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    print(list(kwargs.items()))\n\nfonction_travail(a=1, b=2)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q009",
                 "answers": [
                     {
                         "text": "[('a', 1), ('b', 2)]",
@@ -6780,6 +7083,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    print(kwargs[\"x\"])\n\nfonction_travail(x=10, y=20)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q010",
                 "answers": [
                     {
                         "text": "10",
@@ -6803,6 +7107,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    print(kwargs[\"z\"])\n\nfonction_travail(x=10, y=20)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q011",
                 "answers": [
                     {
                         "text": "Erreur de syntaxe",
@@ -6826,6 +7131,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    return kwargs\n\nd1 = {\"a\": 1, \"b\": 2}\nd2 = {\"c\": 3, \"d\": 4}\n\nresultat = fonction_travail(**d1, **d2)\n</code></pre>Quel est le contenu de `resultat` ?",
                 "type": "multichoice",
+                "name": "Q012",
                 "answers": [
                     {
                         "text": "{\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}",
@@ -6849,6 +7155,7 @@
             {
                 "text": "<pre><code>\ndef afficher_kwargs(**kwargs):\n    print(kwargs.get('c', 'Clé non trouvée'))\n\nafficher_kwargs(a=1, b=2)\n</code></pre>\n<p>Quel est le résultat de l'exécution de ce code ?</p>",
                 "type": "multichoice",
+                "name": "Q013",
                 "answers": [
                     {
                         "text": "<p>Clé non trouvée</p>",
@@ -6872,6 +7179,7 @@
             {
                 "text": "<p>Quelle sera la valeur de result ?</p>\n<pre><code>def update_dict(base, **kwargs):\n    return {**base, **kwargs}\n\nbase = {\"a\": 1, \"b\": 2}\nresult = update_dict(base, a=3, c=4)</code></pre>",
                 "type": "multichoice",
+                "name": "Q014",
                 "answers": [
                     {
                         "text": "<p>{'a': 3, 'b': 2, 'c': 4}</p>",
@@ -6895,6 +7203,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    for key, value in kwargs.items():\n        print(f\"{key}: {value}\")\n\nfonction_travail(a=1, b=2)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q015",
                 "answers": [
                     {
                         "text": "a: 1\nb: 2",
@@ -6918,6 +7227,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    for value, key in kwargs.items():\n        print(f\"{value}: {key}\")\n\nfonction_travail(a=1, b=2)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q016",
                 "answers": [
                     {
                         "text": "1: a\n2: b",
@@ -6941,6 +7251,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    for index, (key, value) in enumerate(kwargs.items()):\n        print(f\"{index}: {key}: {value}\")\n\nfonction_travail(a=1, b=2)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q017",
                 "answers": [
                     {
                         "text": "0: a: 1\n1: b: 2",
@@ -6964,6 +7275,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    for index, (value, key) in enumerate(kwargs.items()):\n        print(f\"{index}: {value}: {key}\")\n\nfonction_travail(a=1, b=2)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q018",
                 "answers": [
                     {
                         "text": "0: 1: a\n1: 2: b",
@@ -6987,6 +7299,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    for index, (value, key) in enumerate(kwargs.items(), start=1):\n        print(f\"{index}: {value}: {key}\")\n\nfonction_travail(a=1, b=2)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q019",
                 "answers": [
                     {
                         "text": "1: 1: a\n2: 2: b",
@@ -7010,6 +7323,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    for index, (value, key) in enumerate(kwargs.items(), start=1):\n        print(f\"{index}: {value}: {key}\")\n\nfonction_travail(a=1, b=2)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q021",
                 "answers": [
                     {
                         "text": "1: 1: a\n2: 2: b",
@@ -7033,6 +7347,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    print(kwargs.values())\n\nfonction_travail(x=10, y=20)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q023",
                 "answers": [
                     {
                         "text": "dict_values([10, 20])",
@@ -7056,6 +7371,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    return kwargs\n\nd = fonction_travail(a=1, b=2, c=3)\n</code></pre>Quel est le type de `d` ?",
                 "type": "multichoice",
+                "name": "Q024",
                 "answers": [
                     {
                         "text": "dict",
@@ -7079,6 +7395,7 @@
             {
                 "text": "<p>Quelle sera la sortie de ce code ?</p>\n<pre><code>def fonction_travail(**kwargs):\n    base = {\"config\": {\"debug\": False}}\n    return {**base, \"config\": {**base[\"config\"], **kwargs}}\n\nprint(fonction_travail(debug=True))</code></pre>",
                 "type": "multichoice",
+                "name": "Q025",
                 "answers": [
                     {
                         "text": "<p>{\"config\": {\"debug\": True}}</p>",
@@ -7102,6 +7419,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    print(kwargs.keys())\n\nfonction_travail(nom=\"Bob\", age=30)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q026",
                 "answers": [
                     {
                         "text": "dict_keys(['nom', 'age'])",
@@ -7125,6 +7443,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    kwargs[\"nouveau\"] = 100\n    return kwargs\n\nresultat = fonction_travail(a=1, b=2)\n</code></pre>Quel est le contenu de `resultat` ?",
                 "type": "multichoice",
+                "name": "Q027",
                 "answers": [
                     {
                         "text": "{\"a\": 1, \"b\": 2, \"nouveau\": 100}",
@@ -7148,6 +7467,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    print(kwargs)\n\nfonction_travail()\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q028",
                 "answers": [
                     {
                         "text": "{}",
@@ -7171,6 +7491,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    kwargs[\"x\"] = 50\n    return kwargs\n\nresultat = fonction_travail(x=10, y=20)\n</code></pre>Quel est le contenu de `resultat` ?",
                 "type": "multichoice",
+                "name": "Q029",
                 "answers": [
                     {
                         "text": "{\"x\": 50, \"y\": 20}",
@@ -7194,6 +7515,7 @@
             {
                 "text": "<pre><code>\ndef fonction_travail(**kwargs):\n    print(kwargs.items())\n\nfonction_travail(a=1, b=2)\n</code></pre>Quel est le résultat de l'exécution de ce code ?",
                 "type": "multichoice",
+                "name": "Q030",
                 "answers": [
                     {
                         "text": "dict_items([('a', 1), ('b', 2)])",
@@ -7217,6 +7539,7 @@
             {
                 "text": "<p>Que fait ce code ?</p>\n<pre><code>def fonction_travail(**kwargs):\n    required = {\"name\", \"age\"}\n    missing = required - set(kwargs.keys())\n    if missing:\n        print(f\"Missing keys: {missing}\")</code></pre>",
                 "type": "multichoice",
+                "name": "Q031",
                 "answers": [
                     {
                         "text": "<p>Vérifie si les clés obligatoires 'name' et 'age' sont présentes</p>",
@@ -7240,6 +7563,7 @@
             {
                 "text": "<p>Quelle sera la sortie de cette fonction ?</p>\n<pre><code>def chain_dicts(**kwargs):\n    result = {}\n    for k, v in kwargs.items():\n        if isinstance(v, dict):\n            result = {**result, **v}\n    return result\n\nprint(fonction_travail(d1={\"a\": 1}, d2={\"b\": 2}, x=42,d3={\"b\": 3}, d4={\"c\": 4}))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q032",
                 "answers": [
                     {
                         "text": "<p>{'a': 1, 'b': 3, 'c': 4}</p>",
@@ -7267,6 +7591,7 @@
             {
                 "text": "<p>Qu'imprime ce code ?</p>\n<pre><code>\ndef fonction_travail(**kwargs):\n    type_map = {\"name\": (str,'str'), \"age\": (int,'int')}\n    for k, v in kwargs.items():\n        if k in type_map and not isinstance(v, type_map[k][0]):\n            print(f\"{k} must be of type {type_map[k][1]}\")\n        \nfonction_travail(name=\"Bob\", age=\"25\")\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q033",
                 "answers": [
                     {
                         "text": "<p>age must be of type int</p>",
@@ -7290,6 +7615,7 @@
             {
                 "text": "<p>Quelle sera la sortie de cette fonction ?</p>\n<pre><code>\ndef fonction_travail(**kwargs):\n    result = []\n    for v in kwargs.values():\n        if isinstance(v, list):\n            result += v\n    return result\n\nprint(fonction_travail(a=[1, 2], b=\"hello\", c=[3, 4]))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q034",
                 "answers": [
                     {
                         "text": "<p>[1, 2, 3, 4]</p>",
@@ -7313,6 +7639,7 @@
             {
                 "text": "Comment corriger cette fonction pour qu'elle fonctionne ?\n<pre><code>def create_user(nom, prenom, kwargs):\n    user = {\n        \"nom\": nom,\n        \"prenom\": prenom,\n        **kwargs\n    }</code></pre>",
                 "type": "multichoice",
+                "name": "Q035",
                 "answers": [
                     {
                         "text": "def create_user(nom, prenom, **kwargs):",
@@ -7336,6 +7663,7 @@
             {
                 "text": "<p>Quelle sera la valeur de result ?</p>\n<pre><code>\ndef fonction_travail(**kwargs):\n    base = {\"a\": 1, \"b\": 2}\n    return {**base, **kwargs}\n\nresult = fonction_travail(b=3, c=4)\n\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q035",
                 "answers": [
                     {
                         "text": "<p>{'a': 1, 'b': 3, 'c': 4}</p>",
@@ -7359,6 +7687,7 @@
             {
                 "text": "Comment modifier ce code pour qu'il fonctionne ?\n<pre><code>d1 = {\"a\": 1}\nd2 = {\"b\": 2}\ndef merge(d1, d2):\n    return {**d1, d2}</code></pre>",
                 "type": "multichoice",
+                "name": "Q036",
                 "answers": [
                     {
                         "text": "return {**d1, **d2}",
@@ -7391,6 +7720,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?\n<pre><code>\ndef double(x):\n    return x * 2\n\nresult = list(map(double, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "[2, 4, 6]",
@@ -7414,6 +7744,7 @@
             {
                 "text": "Que fait la fonction `map` dans le code suivant ?\n<pre><code>\ndef carre(x):\n    return x ** 2\n\nresult = map(carre, [1, 2, 3, 4])\nprint(list(result))</code></pre>",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "Applique la fonction `carre` à chaque élément de la liste",
@@ -7437,6 +7768,7 @@
             {
                 "text": "Quelle sera la sortie du code suivant ?\n<pre><code>\ndef triple(x):\n    return x * 3\n\nresult = list(map(triple, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "[3, 6, 9]",
@@ -7460,6 +7792,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?\n<pre><code>\ndef ajouter_un(x):\n    return x + 1\n\nresult = list(map(ajouter_un, [0, 1, 2]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q004",
                 "answers": [
                     {
                         "text": "[1, 2, 3]",
@@ -7483,6 +7816,7 @@
             {
                 "text": "Que fait le code suivant ?\n<pre><code>\ndef inverse(x):\n    return 1 / x\n\nresult = list(map(inverse, [1, 2, 4]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q005",
                 "answers": [
                     {
                         "text": "Calcule l'inverse de chaque élément de la liste",
@@ -7506,6 +7840,7 @@
             {
                 "text": "Quelle sera la sortie du code suivant ?\n<pre><code>\ndef cube(x):\n    return x ** 3\n\nresult = list(map(cube, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q006",
                 "answers": [
                     {
                         "text": "[1, 8, 27]",
@@ -7529,6 +7864,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?\n<pre><code>\ndef soustraire_un(x):\n    return x - 1\n\nresult = list(map(soustraire_un, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q007",
                 "answers": [
                     {
                         "text": "[0, 1, 2]",
@@ -7552,6 +7888,7 @@
             {
                 "text": "Que fait la fonction `map` dans le code suivant ?\n<pre><code>\ndef diviser_par_deux(x):\n    return x / 2\n\nresult = map(diviser_par_deux, [2, 4, 6])\nprint(list(result))</code></pre>",
                 "type": "multichoice",
+                "name": "Q008",
                 "answers": [
                     {
                         "text": "Divise chaque élément de la liste par 2",
@@ -7575,6 +7912,7 @@
             {
                 "text": "Quelle sera la sortie du code suivant ?\n<pre><code>\ndef multiplier_par_trois(x):\n    return x * 3\n\nresult = list(map(multiplier_par_trois, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q009",
                 "answers": [
                     {
                         "text": "[3, 6, 9]",
@@ -7598,6 +7936,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?\n<pre><code>\ndef ajouter_deux(x):\n    return x + 2\n\nresult = list(map(ajouter_deux, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q010",
                 "answers": [
                     {
                         "text": "[3, 4, 5]",
@@ -7621,6 +7960,7 @@
             {
                 "text": "Que fait le code suivant ?\n<pre><code>\ndef puissance_quatre(x):\n    return x ** 4\n\nresult = list(map(puissance_quatre, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q011",
                 "answers": [
                     {
                         "text": "Élève chaque élément de la liste à la puissance 4",
@@ -7644,6 +7984,7 @@
             {
                 "text": "Quelle sera la sortie du code suivant ?\n<pre><code>\ndef soustraire_deux(x):\n    return x - 2\n\nresult = list(map(soustraire_deux, [2, 4, 6]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q012",
                 "answers": [
                     {
                         "text": "[0, 2, 4]",
@@ -7667,6 +8008,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?\n<pre><code>\ndef diviser_par_trois(x):\n    return x / 3\n\nresult = list(map(diviser_par_trois, [3, 6, 9]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q013",
                 "answers": [
                     {
                         "text": "[1.0, 2.0, 3.0]",
@@ -7690,6 +8032,7 @@
             {
                 "text": "Que fait la fonction `map` dans le code suivant ?\n<pre><code>\ndef multiplier_par_quatre(x):\n    return x * 4\n\nresult = map(multiplier_par_quatre, [1, 2, 3])\nprint(list(result))</code></pre>",
                 "type": "multichoice",
+                "name": "Q014",
                 "answers": [
                     {
                         "text": "Multiplie chaque élément de la liste par 4",
@@ -7713,6 +8056,7 @@
             {
                 "text": "Quelle sera la sortie du code suivant ?\n<pre><code>\ndef ajouter_trois(x):\n    return x + 3\n\nresult = list(map(ajouter_trois, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q015",
                 "answers": [
                     {
                         "text": "[4, 5, 6]",
@@ -7736,6 +8080,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?\n<pre><code>\ndef soustraire_trois(x):\n    return x - 3\n\nresult = list(map(soustraire_trois, [3, 4, 5]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q016",
                 "answers": [
                     {
                         "text": "[0, 1, 2]",
@@ -7759,6 +8104,7 @@
             {
                 "text": "Que fait le code suivant ?\n<pre><code>\ndef puissance_cinq(x):\n    return x ** 5\n\nresult = list(map(puissance_cinq, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q017",
                 "answers": [
                     {
                         "text": "Élève chaque élément de la liste à la puissance 5",
@@ -7782,6 +8128,7 @@
             {
                 "text": "Quelle sera la sortie du code suivant ?\n<pre><code>\ndef diviser_par_cinq(x):\n    return x / 5\n\nresult = list(map(diviser_par_cinq, [5, 10, 15]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q018",
                 "answers": [
                     {
                         "text": "[1.0, 2.0, 3.0]",
@@ -7805,6 +8152,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?\n<pre><code>\ndef multiplier_par_cinq(x):\n    return x * 5\n\nresult = list(map(multiplier_par_cinq, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q019",
                 "answers": [
                     {
                         "text": "[5, 10, 15]",
@@ -7828,6 +8176,7 @@
             {
                 "text": "Que fait la fonction `map` dans le code suivant ?\n<pre><code>\ndef ajouter_cinq(x):\n    return x + 5\n\nresult = map(ajouter_cinq, [1, 2, 3])\nprint(list(result))</code></pre>",
                 "type": "multichoice",
+                "name": "Q020",
                 "answers": [
                     {
                         "text": "Ajoute 5 à chaque élément de la liste",
@@ -7851,6 +8200,7 @@
             {
                 "text": "Quelle sera la sortie du code suivant ?\n<pre><code>\ndef soustraire_cinq(x):\n    return x - 5\n\nresult = list(map(soustraire_cinq, [5, 6, 7]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q021",
                 "answers": [
                     {
                         "text": "[0, 1, 2]",
@@ -7874,6 +8224,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?\n<pre><code>\ndef puissance_six(x):\n    return x ** 6\n\nresult = list(map(puissance_six, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q022",
                 "answers": [
                     {
                         "text": "[1, 64, 729]",
@@ -7897,6 +8248,7 @@
             {
                 "text": "Que fait le code suivant ?\n<pre><code>\ndef diviser_par_six(x):\n    return x / 6\n\nresult = list(map(diviser_par_six, [6, 12, 18]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q023",
                 "answers": [
                     {
                         "text": "Divise chaque élément de la liste par 6",
@@ -7920,6 +8272,7 @@
             {
                 "text": "Quelle sera la sortie du code suivant ?\n<pre><code>\ndef multiplier_par_six(x):\n    return x * 6\n\nresult = list(map(multiplier_par_six, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q024",
                 "answers": [
                     {
                         "text": "[6, 12, 18]",
@@ -7943,6 +8296,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?\n<pre><code>\ndef ajouter_six(x):\n    return x + 6\n\nresult = list(map(ajouter_six, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q025",
                 "answers": [
                     {
                         "text": "[7, 8, 9]",
@@ -7966,6 +8320,7 @@
             {
                 "text": "Que fait la fonction `map` dans le code suivant ?\n<pre><code>\ndef soustraire_six(x):\n    return x - 6\n\nresult = map(soustraire_six, [6, 7, 8])\nprint(list(result))</code></pre>",
                 "type": "multichoice",
+                "name": "Q026",
                 "answers": [
                     {
                         "text": "Soustrait 6 de chaque élément de la liste",
@@ -7989,6 +8344,7 @@
             {
                 "text": "Quelle sera la sortie du code suivant ?\n<pre><code>\ndef puissance_sept(x):\n    return x ** 7\n\nresult = list(map(puissance_sept, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q027",
                 "answers": [
                     {
                         "text": "[1, 128, 2187]",
@@ -8012,6 +8368,7 @@
             {
                 "text": "Quelle est la sortie du code suivant ?\n<pre><code>\ndef diviser_par_sept(x):\n    return x / 7\n\nresult = list(map(diviser_par_sept, [7, 14, 21]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q028",
                 "answers": [
                     {
                         "text": "[1.0, 2.0, 3.0]",
@@ -8035,6 +8392,7 @@
             {
                 "text": "Que fait le code suivant ?\n<pre><code>\ndef multiplier_par_sept(x):\n    return x * 7\n\nresult = list(map(multiplier_par_sept, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q029",
                 "answers": [
                     {
                         "text": "Multiplie chaque élément de la liste par 7",
@@ -8058,6 +8416,7 @@
             {
                 "text": "Quelle sera la sortie du code suivant ?\n<pre><code>\ndef ajouter_sept(x):\n    return x + 7\n\nresult = list(map(ajouter_sept, [1, 2, 3]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q030",
                 "answers": [
                     {
                         "text": "[8, 9, 10]",
@@ -8081,6 +8440,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>\ndef fct(x):\n    return x.upper()\n\nresult = list(map(fct, ['a', 'b', 'c']))\n\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q034",
                 "answers": [
                     {
                         "text": "<pre>['A', 'B', 'C']</pre>",
@@ -8104,6 +8464,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>\ndef fct(x):\n    return len(x)\n\nresult = list(map(fct, ['apple', 'banana', 'cherry']))\n\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q035",
                 "answers": [
                     {
                         "text": "<pre>[5, 6, 6]</pre>",
@@ -8127,6 +8488,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>\ndef fct(x):\n    return x % 2\n\nresult = list(map(fct, [1, 2, 3, 4, 5]))\n\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q036",
                 "answers": [
                     {
                         "text": "<pre>[1, 0, 1, 0, 1]</pre>",
@@ -8150,6 +8512,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<pre><code>\ndef fct(x):\n    return x * 2\nresult = list(map(fct, ['hello', 'world']))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q043",
                 "answers": [
                     {
                         "text": "<pre>['hellohello', 'worldworld']</pre>",
@@ -8178,6 +8541,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2, 3], ['a', 'b', 'c']))</code></pre>",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a'), (2, 'b'), (3, 'c')]</pre>",
@@ -8201,6 +8565,7 @@
             {
                 "text": "<p>Quel est le résultat de l'exécution du code suivant ?</p>\n<p> </p>\n<pre><code>result = list(zip([1, 2], ['a', 'b', 'c']))</code></pre>",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a'), (2, 'b')]</pre>",
@@ -8224,6 +8589,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2, 3], ['a', 'b']))</code></pre>",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a'), (2, 'b')]</pre>",
@@ -8247,6 +8613,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False]))</code></pre>",
                 "type": "multichoice",
+                "name": "Q004",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a', True), (2, 'b', False)]</pre>",
@@ -8270,6 +8637,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2, 3], ['a', 'b', 'c'], [True]))</code></pre>",
                 "type": "multichoice",
+                "name": "Q005",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a', True)]</pre>",
@@ -8293,6 +8661,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], strict=True))</code></pre>",
                 "type": "multichoice",
+                "name": "Q006",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a'), (2, 'b')]</pre>",
@@ -8316,6 +8685,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2, 3], ['a', 'b'], strict=True))</code></pre>",
                 "type": "multichoice",
+                "name": "Q007",
                 "answers": [
                     {
                         "text": "<pre>Erreur, car les itérables n'ont pas la même longueur</pre>",
@@ -8339,6 +8709,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], strict=True))</code></pre>",
                 "type": "multichoice",
+                "name": "Q008",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a', True), (2, 'b', False)]</pre>",
@@ -8362,6 +8733,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True], strict=True))</code></pre>",
                 "type": "multichoice",
+                "name": "Q009",
                 "answers": [
                     {
                         "text": "<pre>Erreur, car les itérables n'ont pas la même longueur</pre>",
@@ -8385,6 +8757,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], [10, 20]))</code></pre>",
                 "type": "multichoice",
+                "name": "Q010",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a', True, 10), (2, 'b', False, 20)]</pre>",
@@ -8408,6 +8781,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], [10]))</code></pre>",
                 "type": "multichoice",
+                "name": "Q011",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a', True, 10)]</pre>",
@@ -8431,6 +8805,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], [10, 20], strict=True))</code></pre>",
                 "type": "multichoice",
+                "name": "Q012",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a', True, 10), (2, 'b', False, 20)]</pre>",
@@ -8454,6 +8829,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], [10], strict=True))</code></pre>",
                 "type": "multichoice",
+                "name": "Q013",
                 "answers": [
                     {
                         "text": "<pre>Erreur, car les itérables n'ont pas la même longueur</pre>",
@@ -8477,6 +8853,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], [10, 20], [100, 200]))</code></pre>",
                 "type": "multichoice",
+                "name": "Q014",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a', True, 10, 100), (2, 'b', False, 20, 200)]</pre>",
@@ -8500,6 +8877,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], [10, 20], [100]))</code></pre>",
                 "type": "multichoice",
+                "name": "Q015",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a', True, 10, 100)]</pre>",
@@ -8523,6 +8901,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], [10, 20], [100, 200], strict=True))</code></pre>",
                 "type": "multichoice",
+                "name": "Q016",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a', True, 10, 100), (2, 'b', False, 20, 200)]</pre>",
@@ -8546,6 +8925,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], [10, 20], [100], strict=True))</code></pre>",
                 "type": "multichoice",
+                "name": "Q017",
                 "answers": [
                     {
                         "text": "<pre>Erreur, car les itérables n'ont pas la même longueur</pre>",
@@ -8569,6 +8949,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], [10, 20], [100, 200], [1000, 2000]))</code></pre>",
                 "type": "multichoice",
+                "name": "Q018",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a', True, 10, 100, 1000), (2, 'b', False, 20, 200, 2000)]</pre>",
@@ -8592,6 +8973,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], [10, 20], [100, 200], [1000]))</code></pre>",
                 "type": "multichoice",
+                "name": "Q019",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a', True, 10, 100, 1000)]</pre>",
@@ -8615,6 +8997,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], [10, 20], [100, 200], [1000, 2000], strict=True))</code></pre>",
                 "type": "multichoice",
+                "name": "Q020",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a', True, 10, 100, 1000), (2, 'b', False, 20, 200, 2000)]</pre>",
@@ -8638,6 +9021,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], [10, 20], [100, 200], [1000], strict=True))</code></pre>",
                 "type": "multichoice",
+                "name": "Q021",
                 "answers": [
                     {
                         "text": "<pre>Erreur, car les itérables n'ont pas la même longueur</pre>",
@@ -8661,6 +9045,7 @@
             {
                 "text": "Quel est le résultat de l'exécution du code suivant ?\n<pre><code>result = list(zip([1, 2], ['a', 'b'], [True, False], [10, 20], [100, 200], [1000, 2000], [10000, 20000]))</code></pre>",
                 "type": "multichoice",
+                "name": "Q022",
                 "answers": [
                     {
                         "text": "<pre>[(1, 'a', True, 10, 100, 1000, 10000), (2, 'b', False, 20, 200, 2000, 20000)]</pre>",
@@ -8684,6 +9069,7 @@
             {
                 "text": "<p>Comment zip() gère-t-il les itérables de longueurs différentes ?</p>",
                 "type": "multichoice",
+                "name": "Q023",
                 "answers": [
                     {
                         "text": "<p>Il s'arrête quand le plus court itérable est épuisé</p>",
@@ -8707,6 +9093,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant ?</p>\n<pre><code>\nzipped = [(1, 'a'), (2, 'b'), (3, 'c')]\nnumbers, letters = zip(*zipped)\nprint(numbers, letters)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q024",
                 "answers": [
                     {
                         "text": "<p>(1, 2, 3) ('a', 'b', 'c')</p>",
@@ -8730,6 +9117,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant ?</p>\n<pre><code>\nkeys = ['nom', 'age', 'ville']\nvalues = ['Alice', 25, 'Paris']\nresult = dict(zip(keys, values))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q025",
                 "answers": [
                     {
                         "text": "<p>{'nom': 'Alice', 'age': 25, 'ville': 'Paris'}</p>",
@@ -8753,6 +9141,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant :</p>\n<pre><code>\nnumbers = [1, 2, 3]\nletters = ['a', 'b', 'c']\nz = zip(numbers, letters)\nprint(list(z))\nprint(list(z))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q026",
                 "answers": [
                     {
                         "text": "<p>Le deuxième print affiche une liste vide</p>",
@@ -8776,6 +9165,7 @@
             {
                 "text": "<p>Quel est le résultat de ce code utilisant zip() avec enumerate() ?</p>\n<pre><code>\nletters = ['a', 'b', 'c']\nnumbers = [1, 2, 3]\nfor i, (letter, number) in enumerate(zip(letters, numbers)):\n    print(f\"{i}: {letter}-{number}\")\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q027",
                 "answers": [
                     {
                         "text": "<pre>0: a-1\n1: b-2\n2: c-3\n</pre>",
@@ -8799,6 +9189,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant :</p>\n<pre><code>\nresult = list(zip('abc', '123'))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q028",
                 "answers": [
                     {
                         "text": "<p>[('a', '1'), ('b', '2'), ('c', '3')]</p>",
@@ -8822,6 +9213,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant ?</p>\n<pre><code>\nnumbers = [1, 2, 3, 4]\nresult = list(zip(numbers[:-1], numbers[1:]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q029",
                 "answers": [
                     {
                         "text": "<p>[(1, 2), (2, 3), (3, 4)]</p>",
@@ -8845,6 +9237,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant ?</p>\n<pre><code>\nnumbers = [1, 2, 3]\nresult = list(zip(numbers))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q030",
                 "answers": [
                     {
                         "text": "<p>[(1,), (2,), (3,)]</p>",
@@ -8868,6 +9261,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant ?</p>\n<pre><code>\nnumbers = range(5)\nresult = list(zip(numbers[::2], numbers[1::2]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q031",
                 "answers": [
                     {
                         "text": "<p>[(0, 1), (2, 3)]</p>",
@@ -8891,6 +9285,7 @@
             {
                 "text": "<p>Quel est le résultat du code suivant ?</p>\n<pre><code>\na = []\nb = [1, 2, 3]\nresult = list(zip(a, b))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q032",
                 "answers": [
                     {
                         "text": "<p>[ ]</p>",
@@ -8919,6 +9314,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x % 2 == 0\n\nresult = list(filter(fonction_travail, [1, 2, 3, 4]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q001",
                 "answers": [
                     {
                         "text": "<p>[2, 4]</p>",
@@ -8942,6 +9338,7 @@
             {
                 "text": "<p>Que fait la fonction `filter` dans le code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &gt; 0\n\nresult = filter(fonction_travail, [-1, 0, 1, 2])\nprint(list(result))</code></pre>",
                 "type": "multichoice",
+                "name": "Q002",
                 "answers": [
                     {
                         "text": "<p>Filtre les éléments positifs de la liste</p>",
@@ -8965,6 +9362,7 @@
             {
                 "text": "<p>Quelle sera la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x % 2 != 0\n\nresult = list(filter(fonction_travail, [1, 2, 3, 4]))\nprint(result)</code></pre>",
                 "type": "multichoice",
+                "name": "Q003",
                 "answers": [
                     {
                         "text": "<p>[1, 3]</p>",
@@ -8988,6 +9386,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x % 3 == 0\n\nresult = list(filter(fonction_travail, [1, 2, 3, 4, 5, 6]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q004",
                 "answers": [
                     {
                         "text": "<p>[3, 6]</p>",
@@ -9011,6 +9410,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &lt; 0\n\nresult = list(filter(fonction_travail, [-1, -2, 0, 1, 2]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q005",
                 "answers": [
                     {
                         "text": "<p>Filtre les éléments négatifs de la liste</p>",
@@ -9034,6 +9434,7 @@
             {
                 "text": "<p>Quelle sera la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x % 5 == 0\n\nresult = list(filter(fonction_travail, [5, 10, 15, 20, 25]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q006",
                 "answers": [
                     {
                         "text": "<p>[5, 10, 15, 20, 25]</p>",
@@ -9057,6 +9458,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x == 0\n\nresult = list(filter(fonction_travail, [0, 1, 2, 3, 0]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q007",
                 "answers": [
                     {
                         "text": "<p>[0, 0]</p>",
@@ -9080,6 +9482,7 @@
             {
                 "text": "<p>Que fait la fonction `filter` dans le code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &gt; 10\n\nresult = filter(fonction_travail, [5, 15, 25, 35])\nprint(list(result))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q008",
                 "answers": [
                     {
                         "text": "<p>Filtre les éléments plus grands que 10</p>",
@@ -9103,6 +9506,7 @@
             {
                 "text": "<p>Quelle sera la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &lt; 5\n\nresult = list(filter(fonction_travail, [1, 2, 3, 4, 5]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q009",
                 "answers": [
                     {
                         "text": "<p>[1, 2, 3, 4]</p>",
@@ -9126,6 +9530,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x == 1\n\nresult = list(filter(fonction_travail, [1, 0, 1, 2, 3]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q010",
                 "answers": [
                     {
                         "text": "<p>[1, 1]</p>",
@@ -9149,6 +9554,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x != 0\n\nresult = list(filter(fonction_travail, [0, 1, 2, 3, 0]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q011",
                 "answers": [
                     {
                         "text": "<p>Filtre les éléments différents de zéro</p>",
@@ -9172,6 +9578,7 @@
             {
                 "text": "<p>Quelle sera la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &lt; 0\n\nresult = list(filter(fonction_travail, [-1, -2, 0, 1, 2]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q012",
                 "answers": [
                     {
                         "text": "<p>[-1, -2]</p>",
@@ -9195,6 +9602,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x == 5\n\nresult = list(filter(fonction_travail, [5, 10, 15, 20, 25]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q013",
                 "answers": [
                     {
                         "text": "<p>[5]</p>",
@@ -9218,6 +9626,7 @@
             {
                 "text": "<p>Que fait la fonction `filter` dans le code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &gt; 20\n\nresult = filter(fonction_travail, [10, 20, 30, 40])\nprint(list(result))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q014",
                 "answers": [
                     {
                         "text": "<p>Filtre les éléments plus grands que 20</p>",
@@ -9241,6 +9650,7 @@
             {
                 "text": "<p>Quelle sera la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &lt; 10\n\nresult = list(filter(fonction_travail, [5, 15, 25, 35]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q015",
                 "answers": [
                     {
                         "text": "<p>[5]</p>",
@@ -9264,6 +9674,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x == 10\n\nresult = list(filter(fonction_travail, [10, 20, 30, 40]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q016",
                 "answers": [
                     {
                         "text": "<p>[10]</p>",
@@ -9287,6 +9698,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x != 5\n\nresult = list(filter(fonction_travail, [5, 10, 15, 20, 25]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q017",
                 "answers": [
                     {
                         "text": "<p>Filtre les éléments différents de cinq</p>",
@@ -9310,6 +9722,7 @@
             {
                 "text": "<p>Quelle sera la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &lt; 3\n\nresult = list(filter(fonction_travail, [1, 2, 3, 4, 5]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q018",
                 "answers": [
                     {
                         "text": "<p>[1, 2]</p>",
@@ -9333,6 +9746,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x == 3\n\nresult = list(filter(fonction_travail, [3, 6, 9, 12]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q019",
                 "answers": [
                     {
                         "text": "<p>[3]</p>",
@@ -9356,6 +9770,7 @@
             {
                 "text": "<p>Que fait la fonction `filter` dans le code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &gt; 30\n\nresult = filter(fonction_travail, [20, 30, 40, 50])\nprint(list(result))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q020",
                 "answers": [
                     {
                         "text": "<p>Filtre les éléments plus grands que 30</p>",
@@ -9379,6 +9794,7 @@
             {
                 "text": "<p>Quelle sera la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &lt; 20\n\nresult = list(filter(fonction_travail, [10, 20, 30, 40]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q021",
                 "answers": [
                     {
                         "text": "<p>[10]</p>",
@@ -9402,6 +9818,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x == 20\n\nresult = list(filter(fonction_travail, [20, 40, 60, 80]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q022",
                 "answers": [
                     {
                         "text": "<p>[20]</p>",
@@ -9425,6 +9842,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x != 10\n\nresult = list(filter(fonction_travail, [10, 20, 30, 40]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q023",
                 "answers": [
                     {
                         "text": "<p>Filtre les éléments différents de dix</p>",
@@ -9448,6 +9866,7 @@
             {
                 "text": "<p>Quelle sera la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &lt; 50\n\nresult = list(filter(fonction_travail, [30, 40, 50, 60]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q024",
                 "answers": [
                     {
                         "text": "<p>[30, 40]</p>",
@@ -9471,6 +9890,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x == 50\n\nresult = list(filter(fonction_travail, [50, 100, 150, 200]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q025",
                 "answers": [
                     {
                         "text": "<p>[50]</p>",
@@ -9494,6 +9914,7 @@
             {
                 "text": "<p>Que fait la fonction `filter` dans le code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &gt; 40\n\nresult = filter(fonction_travail, [30, 40, 50, 60])\nprint(list(result))\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q026",
                 "answers": [
                     {
                         "text": "<p>Filtre les éléments plus grands que 40</p>",
@@ -9517,6 +9938,7 @@
             {
                 "text": "<p>Quelle sera la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &lt; 60\n\nresult = list(filter(fonction_travail, [40, 50, 60, 70]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q027",
                 "answers": [
                     {
                         "text": "<p>[40, 50]</p>",
@@ -9540,6 +9962,7 @@
             {
                 "text": "<p>Quelle est la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x == 60\n\nresult = list(filter(fonction_travail, [60, 120, 180, 240]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q028",
                 "answers": [
                     {
                         "text": "<p>[60]</p>",
@@ -9563,6 +9986,7 @@
             {
                 "text": "<p>Que fait le code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x != 20\n\nresult = list(filter(fonction_travail, [20, 40, 60, 80]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q029",
                 "answers": [
                     {
                         "text": "<p>Filtre les éléments différents de vingt</p>",
@@ -9586,6 +10010,7 @@
             {
                 "text": "<p>Quelle sera la sortie du code suivant ?</p>\n<pre><code>\ndef fonction_travail(x):\n    return x &lt; 70\n\nresult = list(filter(fonction_travail, [50, 60, 70, 80]))\nprint(result)\n</code></pre>",
                 "type": "multichoice",
+                "name": "Q030",
                 "answers": [
                     {
                         "text": "<p>[50, 60]</p>",

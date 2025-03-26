@@ -13,6 +13,7 @@ def export_questions_to_json(parser, output_filepath):
             question_data = {
                 "text": question.text,
                 "type": question.qtype,
+                "name": question.name,
                 "answers": [],
                 "matching_pairs": []
             }

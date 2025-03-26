@@ -1,6 +1,7 @@
 class Question:
-    def __init__(self, text, qtype):
+    def __init__(self, text, qtype, name=None):
         self.text = text
+        self.name = name
         self.qtype = qtype
         self.answers = []
         self.matching_pairs = []
