@@ -1,0 +1,38 @@
+<quiz>
+    <question type="category">
+        <category>
+            <text>$course$/Default</text>
+        </category>
+    </question>
+    <question type="multichoice">
+        <name>
+            <text>Capital of France</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[What is the capital of France?]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text><![CDATA[Paris]]></text>
+        </answer>
+        <answer fraction="0">
+            <text><![CDATA[London]]></text>
+        </answer>
+        <answer fraction="0">
+            <text><![CDATA[Berlin]]></text>
+        </answer>
+    </question>
+    <question type="truefalse">
+        <name>
+            <text>Python is a programming language</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[Python is a programming language.]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text>true</text>
+        </answer>
+        <answer fraction="0">
+            <text>false</text>
+        </answer>
+    </question>
+</quiz>
