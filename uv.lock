@@ -55,6 +55,12 @@ wheels = [
 ]
 
 [[package]]
+name = "prettyprint"
+version = "0.1.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/13/9c/495a32e19f94fdd402bffc1c90abd84f2f604595ab480a3087dd77a94502/prettyprint-0.1.5.tar.gz", hash = "sha256:7423210b62adfb3777677914cd25db4919f1c2b0afba0454365ffbfa3f7e3731", size = 2119 }
+
+[[package]]
 name = "pygments"
 version = "2.19.1"
 source = { registry = "https://pypi.org/simple" }
@@ -70,6 +76,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "lxml" },
     { name = "pillow" },
+    { name = "prettyprint" },
     { name = "pygments" },
 ]
 
@@ -77,5 +84,6 @@ dependencies = [
 requires-dist = [
     { name = "lxml", specifier = ">=5.3.1" },
     { name = "pillow", specifier = ">=11.1.0" },
+    { name = "prettyprint", specifier = ">=0.1.5" },
     { name = "pygments", specifier = ">=2.19.1" },
 ]
